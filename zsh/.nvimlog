@@ -1,0 +1,1360 @@
+DEBUG 2021-06-27T00:34:14.631 95280 pty_process_save_termios:51: tty_fd=0
+INFO  2021-06-27T00:34:14.632 95280 set_init_2:798: startup runtimepath/packpath value: /Users/fortesad/.config/nvim,/etc/xdg/nvim,/Users/fortesad/.local/share/nvim/site,/usr/local/share/nvim/site,/usr/share/nvim/site,/usr/local/share/nvim/runtime,/usr/local/lib/nvim,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/fortesad/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/fortesad/.config/nvim/after
+DEBUG 2021-06-27T00:34:14.634 95280 tui_get_stty_erase:2138: stty/termios:erase=
+DEBUG 2021-06-27T00:34:14.634 95280 tui_tk_ti_getstr:2155: libtermkey:kbs=
+DEBUG 2021-06-27T00:34:14.634 95280 tui_tk_ti_getstr:2160: libtermkey:kdch1=[3~
+DEBUG 2021-06-27T00:34:14.635 95280 tui_tk_ti_getstr:2166: libtermkey:kmous=[M
+DEBUG 2021-06-27T00:34:14.637 95280 UI: option_set
+DEBUG 2021-06-27T00:34:14.637 95280 UI: option_set (+11 times...)
+DEBUG 2021-06-27T00:34:14.637 95280 UI: default_colors_set
+DEBUG 2021-06-27T00:34:14.637 95280 handle_background_color:536: bg response: dark
+DEBUG 2021-06-27T00:34:14.637 95280 UI: option_set
+DEBUG 2021-06-27T00:34:14.638 95280 UI: option_set (+4 times...)
+DEBUG 2021-06-27T00:34:14.638 95280 UI: default_colors_set
+DEBUG 2021-06-27T00:34:14.638 95280 UI: grid_resize
+DEBUG 2021-06-27T00:34:14.638 95280 UI: grid_resize (+1 times...)
+DEBUG 2021-06-27T00:34:14.638 95280 UI: grid_clear
+DEBUG 2021-06-27T00:34:14.640 95280 UI: hl_attr_define
+DEBUG 2021-06-27T00:34:14.667 95280 UI: hl_attr_define (+10 times...)
+DEBUG 2021-06-27T00:34:14.667 95280 UI: default_colors_set
+DEBUG 2021-06-27T00:34:14.696 95280 UI: option_set
+DEBUG 2021-06-27T00:34:14.696 95280 UI: default_colors_set
+DEBUG 2021-06-27T00:34:14.700 95280 UI: hl_attr_define
+DEBUG 2021-06-27T00:34:14.702 95280 UI: hl_attr_define (+34 times...)
+DEBUG 2021-06-27T00:34:14.702 95280 UI: default_colors_set
+DEBUG 2021-06-27T00:34:14.702 95280 UI: hl_attr_define
+DEBUG 2021-06-27T00:34:14.710 95280 UI: hl_attr_define (+48 times...)
+DEBUG 2021-06-27T00:34:14.710 95280 UI: default_colors_set
+DEBUG 2021-06-27T00:34:14.724 95280 UI: hl_attr_define
+DEBUG 2021-06-27T00:34:14.731 95280 UI: hl_attr_define (+2 times...)
+DEBUG 2021-06-27T00:34:14.731 95280 UI: update_menu
+DEBUG 2021-06-27T00:34:14.750 95280 UI: update_menu (+35 times...)
+DEBUG 2021-06-27T00:34:14.750 95280 UI: hl_attr_define
+INFO  2021-06-27T00:34:14.829 95280 main:559: starting main loop
+DEBUG 2021-06-27T00:34:14.829 95280 UI: hl_attr_define (+77 times...)
+DEBUG 2021-06-27T00:34:14.829 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:14.830 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:14.835 95280 UI: raw_line (+102 times...)
+DEBUG 2021-06-27T00:34:14.835 95280 UI: grid_resize
+DEBUG 2021-06-27T00:34:14.836 95280 UI: msg_set_pos
+DEBUG 2021-06-27T00:34:14.836 95280 UI: set_icon
+DEBUG 2021-06-27T00:34:14.836 95280 UI: set_title
+DEBUG 2021-06-27T00:34:14.836 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:14.836 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:14.836 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:14.836 95280 UI: mode_info_set
+DEBUG 2021-06-27T00:34:14.836 95280 UI: mode_change
+DEBUG 2021-06-27T00:34:14.836 95280 UI: mouse_off
+DEBUG 2021-06-27T00:34:14.836 95280 UI: flush
+DEBUG 2021-06-27T00:34:14.837 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:14.837 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:14.837 95280 UI: flush
+DEBUG 2021-06-27T00:34:14.837 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:14.837 95280 log_key:969: input: K_EVENT
+DEBUG 2021-06-27T00:34:14.838 95280 UI: hl_attr_define
+DEBUG 2021-06-27T00:34:14.848 95280 UI: hl_attr_define (+31 times...)
+DEBUG 2021-06-27T00:34:14.848 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:14.849 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:14.849 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:14.849 95280 UI: flush
+DEBUG 2021-06-27T00:34:14.849 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:14.849 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:14.904 95280 log_key:969: input: K_EVENT
+DEBUG 2021-06-27T00:34:14.906 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:14.907 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:14.961 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:15.745 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:15.746 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:15.746 95280 UI: flush (+6 times...)
+DEBUG 2021-06-27T00:34:15.746 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:15.746 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:15.747 95280 UI: flush
+DEBUG 2021-06-27T00:34:15.747 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:15.747 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:15.747 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:15.749 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:15.750 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:15.750 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:15.750 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:15.750 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:15.750 95280 UI: flush
+DEBUG 2021-06-27T00:34:15.750 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:15.751 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:15.802 95280 log_key:969: input: K_EVENT
+DEBUG 2021-06-27T00:34:15.803 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:15.805 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:15.856 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:16.161 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:16.162 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.162 95280 UI: flush (+6 times...)
+DEBUG 2021-06-27T00:34:16.162 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.163 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.163 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.163 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.163 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.164 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.164 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.165 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:16.165 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.165 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:16.166 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:16.166 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.166 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.166 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:16.195 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:16.195 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.196 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:16.196 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.196 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.196 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.196 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.197 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.197 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.197 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.198 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:16.198 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.198 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:16.198 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:16.198 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.198 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.199 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:16.229 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:16.229 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.230 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:16.230 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.230 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.230 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.230 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.231 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.231 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.231 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.232 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:16.232 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.232 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:16.232 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:16.232 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.233 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.233 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:16.263 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:16.264 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.264 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:16.264 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.264 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.264 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.265 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.265 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.265 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.265 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.266 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:16.266 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.267 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:16.267 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:16.267 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.267 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.267 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:16.297 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:16.297 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.298 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:16.298 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.298 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.298 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.298 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.299 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.299 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.299 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.301 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:16.301 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.301 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:16.301 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:16.301 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.301 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.301 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:16.332 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:16.332 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.332 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:16.332 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.332 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.332 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.333 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.333 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.333 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.333 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.335 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:16.335 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.335 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:16.335 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:16.335 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.335 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.336 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:16.365 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:16.365 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.366 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:16.366 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.366 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.366 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.366 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.366 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.367 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.367 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.368 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:16.368 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.369 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:16.369 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:16.369 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.369 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.369 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:16.400 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:16.400 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.400 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:16.400 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.400 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.401 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.401 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.401 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.401 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.402 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.403 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:16.403 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.403 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:16.403 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:16.404 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.404 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.404 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:16.434 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:16.434 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.434 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:16.434 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.435 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.435 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.435 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.435 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.435 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.436 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.437 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:16.437 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.437 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:16.437 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:16.437 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.437 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.438 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:16.467 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:16.467 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.468 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:16.468 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.468 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.468 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.468 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.468 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.468 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.469 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.470 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:16.470 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.470 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:16.470 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:16.470 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.470 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.470 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:16.502 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:16.502 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.503 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:16.503 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.503 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.503 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.503 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.504 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.504 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.504 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.506 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:16.506 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.506 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:16.506 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:16.506 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.506 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.507 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:16.540 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:16.540 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.540 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:16.540 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.540 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.540 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.541 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.541 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.541 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.541 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.542 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:16.543 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.543 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:16.543 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:16.543 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.543 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.543 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:16.573 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:16.573 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.573 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:16.573 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.573 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.574 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.574 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.574 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.574 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.574 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.576 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:16.576 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.576 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:16.576 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:16.576 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.576 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.576 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:16.606 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:16.606 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.607 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:16.607 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.607 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.607 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.607 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.608 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.608 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.608 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.609 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:16.609 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.610 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:16.610 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:16.610 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.610 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.610 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:16.639 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:16.639 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.639 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:16.639 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.640 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.640 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.640 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.640 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.640 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.640 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.642 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:16.642 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.642 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:16.642 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:16.642 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.643 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.643 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:16.672 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:16.673 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.673 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:16.673 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.673 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.673 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.673 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.674 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.674 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.674 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.675 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:16.675 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.676 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:16.676 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:16.676 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.676 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.676 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:16.706 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:16.707 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.707 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:16.707 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.707 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.707 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.707 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.708 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.708 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.708 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.709 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:16.709 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.709 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:16.709 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:16.710 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.710 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.710 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:16.740 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:16.740 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.740 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:16.740 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.741 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.741 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.741 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.741 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.741 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.741 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.743 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:16.743 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.743 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:16.743 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:16.743 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.743 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.743 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:16.773 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:16.773 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.773 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:16.774 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.774 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.774 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.774 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.774 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.774 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.775 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.776 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:16.776 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.776 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:16.776 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:16.776 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.776 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.776 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:16.806 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:16.807 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.807 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:16.807 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.807 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.807 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.807 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.808 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.808 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.808 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.809 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:16.809 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.810 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:16.810 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:16.810 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.810 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.810 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:16.840 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:16.840 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.840 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:16.840 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.841 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.841 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.841 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.841 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.841 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.842 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.843 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:16.843 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.843 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:16.843 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:16.843 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.843 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.843 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:16.873 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:16.873 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.874 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:16.874 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.874 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.874 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.874 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.875 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.875 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.875 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.876 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:16.876 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.876 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:16.876 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:16.876 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.876 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.876 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:16.906 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:16.906 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.906 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:16.906 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.906 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.906 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.906 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.907 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.907 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.907 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.908 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:16.908 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.908 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:16.908 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:16.908 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.909 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.909 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:16.940 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:16.940 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.940 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:16.940 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.940 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.941 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.941 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.941 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.941 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.941 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.942 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:16.942 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.943 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:16.943 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:16.943 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.943 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.943 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:16.973 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:16.973 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.973 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:16.974 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.974 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.974 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.974 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.974 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:16.974 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.975 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:16.976 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:16.976 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:16.976 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:16.976 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:16.976 95280 UI: flush
+DEBUG 2021-06-27T00:34:16.976 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:16.977 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:17.006 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:17.007 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.007 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:17.007 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.007 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.007 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.008 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.008 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.008 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.008 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.009 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:17.009 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.009 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:17.010 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:17.010 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.010 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.010 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:17.040 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:17.040 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.040 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:17.040 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.041 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.041 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.041 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.041 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.041 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.042 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.042 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:17.043 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.043 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:17.043 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:17.043 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.043 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.043 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:17.073 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:17.073 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.073 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:17.074 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.074 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.074 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.074 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.074 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.074 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.075 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.076 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:17.076 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.076 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:17.076 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:17.076 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.077 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.077 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:17.106 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:17.107 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.107 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:17.107 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.107 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.107 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.108 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.108 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.108 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.108 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.109 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:17.109 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.110 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:17.110 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:17.110 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.110 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.110 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:17.140 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:17.140 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.140 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:17.140 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.141 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.141 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.141 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.141 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.141 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.142 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.142 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:17.143 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.143 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:17.143 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:17.143 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.143 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.143 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:17.173 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:17.173 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.174 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:17.174 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.174 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.174 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.174 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.175 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.175 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.175 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.176 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:17.176 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.176 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:17.177 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:17.177 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.177 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.177 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:17.207 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:17.207 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.207 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:17.208 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.208 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.208 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.208 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.208 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.208 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.209 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.209 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:17.209 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.210 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:17.210 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:17.210 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.210 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.210 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:17.239 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:17.239 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.239 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:17.239 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.239 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.239 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.239 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.240 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.240 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.240 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.241 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:17.241 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.241 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:17.241 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:17.241 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.241 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.242 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:17.273 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:17.274 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.274 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:17.274 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.274 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.274 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.274 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.275 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.275 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.275 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.276 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:17.276 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.276 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:17.276 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:17.276 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.276 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.276 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:17.306 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:17.307 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.307 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:17.307 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.307 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.307 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.307 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.308 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.308 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.308 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.309 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:17.309 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.309 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:17.309 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:17.309 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.310 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.310 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:17.339 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:17.339 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.339 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:17.340 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.340 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.340 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.340 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.340 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.341 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.341 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.342 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:17.342 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.342 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:17.342 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:17.342 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.342 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.342 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:17.372 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:17.373 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.373 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:17.373 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.373 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.373 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.373 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.374 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.374 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.374 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.375 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:17.375 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.375 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:17.375 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:17.375 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.375 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.375 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:17.406 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:17.407 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.407 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:17.407 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.407 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.407 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.407 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.408 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.408 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.408 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.409 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:17.409 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.409 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:17.409 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:17.409 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.409 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.410 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:17.440 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:17.440 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.440 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:17.440 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.441 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.441 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.441 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.441 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.441 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.442 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.442 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:17.442 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.443 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:17.443 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:17.443 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.443 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.443 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:17.473 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:17.473 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.474 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:17.474 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.474 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.474 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.474 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.474 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.475 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.475 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.476 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:17.476 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.476 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:17.477 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:17.477 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.477 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.477 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:17.506 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:17.507 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.507 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:17.507 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.507 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.507 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.508 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.508 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.508 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.508 95280 UI: grid_scroll
+DEBUG 2021-06-27T00:34:17.508 95280 UI: grid_scroll (+1 times...)
+DEBUG 2021-06-27T00:34:17.508 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.510 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:17.510 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.510 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.510 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.510 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:17.540 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:17.540 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.540 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:17.540 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.541 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.541 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.541 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.541 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.541 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.542 95280 UI: grid_scroll
+DEBUG 2021-06-27T00:34:17.542 95280 UI: grid_scroll (+1 times...)
+DEBUG 2021-06-27T00:34:17.542 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.543 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:17.543 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.543 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.543 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.543 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:17.573 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:17.573 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.574 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:17.574 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.574 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.574 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.574 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.575 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.575 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.575 95280 UI: grid_scroll
+DEBUG 2021-06-27T00:34:17.575 95280 UI: grid_scroll (+1 times...)
+DEBUG 2021-06-27T00:34:17.575 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.576 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:17.576 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.576 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.576 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.576 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:17.606 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:17.607 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.607 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:17.607 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.607 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.607 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.607 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.608 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.608 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.608 95280 UI: grid_scroll
+DEBUG 2021-06-27T00:34:17.608 95280 UI: grid_scroll (+1 times...)
+DEBUG 2021-06-27T00:34:17.608 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.609 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:17.609 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.610 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.610 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.610 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:17.640 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:17.640 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.640 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:17.640 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.641 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.641 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.641 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.641 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.641 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.642 95280 UI: grid_scroll
+DEBUG 2021-06-27T00:34:17.642 95280 UI: grid_scroll (+1 times...)
+DEBUG 2021-06-27T00:34:17.642 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.643 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:17.643 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.643 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.643 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.644 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:17.673 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:17.673 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.673 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:17.674 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.674 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.674 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.674 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.674 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.675 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.675 95280 UI: grid_scroll
+DEBUG 2021-06-27T00:34:17.675 95280 UI: grid_scroll (+1 times...)
+DEBUG 2021-06-27T00:34:17.675 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.676 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:17.676 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.676 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.676 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.676 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:17.706 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:17.707 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.707 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:17.707 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.707 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.707 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.707 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.708 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.708 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.708 95280 UI: grid_scroll
+DEBUG 2021-06-27T00:34:17.708 95280 UI: grid_scroll (+1 times...)
+DEBUG 2021-06-27T00:34:17.708 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.710 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:17.710 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.710 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.710 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.710 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:17.740 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:17.740 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.740 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:17.740 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.741 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.741 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.741 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.741 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.741 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.741 95280 UI: grid_scroll
+DEBUG 2021-06-27T00:34:17.742 95280 UI: grid_scroll (+1 times...)
+DEBUG 2021-06-27T00:34:17.742 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.743 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:17.743 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.743 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.743 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.743 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:17.772 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:17.773 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.773 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:17.773 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.773 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.773 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.773 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.774 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.774 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.774 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.775 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:17.775 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.775 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:17.775 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:17.775 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.775 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.776 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:17.806 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:17.807 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.807 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:17.807 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.807 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.807 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.807 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.808 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.808 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.808 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.809 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:17.809 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.809 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:17.809 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:17.809 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.809 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.810 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:17.840 95280 log_key:969: input: <j>
+DEBUG 2021-06-27T00:34:17.840 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.840 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:17.840 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.840 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.841 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.841 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.841 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.841 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.841 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.842 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:17.842 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.842 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:17.843 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:17.843 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.843 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.843 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:17.897 95280 log_key:969: input: K_EVENT
+DEBUG 2021-06-27T00:34:17.898 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.898 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:17.954 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:17.982 95280 log_key:969: input: <k>
+DEBUG 2021-06-27T00:34:17.983 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.983 95280 UI: flush (+6 times...)
+DEBUG 2021-06-27T00:34:17.983 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.983 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.983 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.984 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.984 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:17.984 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.984 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:17.985 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:17.986 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:17.986 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:17.986 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:17.986 95280 UI: flush
+DEBUG 2021-06-27T00:34:17.986 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:17.986 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:18.040 95280 log_key:969: input: K_EVENT
+DEBUG 2021-06-27T00:34:18.041 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:18.042 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:18.097 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:18.164 95280 log_key:969: input: <k>
+DEBUG 2021-06-27T00:34:18.164 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:18.165 95280 UI: flush (+6 times...)
+DEBUG 2021-06-27T00:34:18.165 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:18.165 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:18.165 95280 UI: flush
+DEBUG 2021-06-27T00:34:18.165 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:18.166 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:18.166 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:18.166 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:18.167 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:18.167 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:18.167 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:18.168 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:18.168 95280 UI: flush
+DEBUG 2021-06-27T00:34:18.168 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:18.168 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:18.220 95280 log_key:969: input: K_EVENT
+DEBUG 2021-06-27T00:34:18.221 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:18.222 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:18.279 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:18.398 95280 log_key:969: input: <k>
+DEBUG 2021-06-27T00:34:18.398 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:18.399 95280 UI: flush (+6 times...)
+DEBUG 2021-06-27T00:34:18.399 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:18.399 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:18.399 95280 UI: flush
+DEBUG 2021-06-27T00:34:18.399 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:18.400 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:18.400 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:18.400 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:18.401 95280 UI: raw_line (+101 times...)
+DEBUG 2021-06-27T00:34:18.401 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:18.401 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:18.402 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:18.402 95280 UI: flush
+DEBUG 2021-06-27T00:34:18.402 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:18.402 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:18.454 95280 log_key:969: input: K_EVENT
+DEBUG 2021-06-27T00:34:18.455 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:18.456 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:18.507 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:18.627 95280 log_key:969: input: <l>
+DEBUG 2021-06-27T00:34:18.628 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:18.628 95280 UI: flush (+6 times...)
+DEBUG 2021-06-27T00:34:18.628 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:18.629 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:18.629 95280 UI: flush
+DEBUG 2021-06-27T00:34:18.629 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:18.630 95280 UI: raw_line (+3 times...)
+DEBUG 2021-06-27T00:34:18.630 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:18.631 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:18.631 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:18.631 95280 UI: flush
+DEBUG 2021-06-27T00:34:18.631 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:18.631 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:18.685 95280 log_key:969: input: K_EVENT
+DEBUG 2021-06-27T00:34:18.686 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:18.686 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:18.740 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:19.045 95280 log_key:969: input: <l>
+DEBUG 2021-06-27T00:34:19.045 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.045 95280 UI: flush (+6 times...)
+DEBUG 2021-06-27T00:34:19.045 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.046 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:19.046 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.046 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.047 95280 UI: raw_line (+3 times...)
+DEBUG 2021-06-27T00:34:19.047 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:19.047 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:19.047 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:19.048 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.048 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.048 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:19.077 95280 log_key:969: input: <l>
+DEBUG 2021-06-27T00:34:19.077 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.078 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:19.078 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.078 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:19.078 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.078 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.079 95280 UI: raw_line (+3 times...)
+DEBUG 2021-06-27T00:34:19.079 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:19.080 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:19.080 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:19.080 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.080 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.080 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:19.111 95280 log_key:969: input: <l>
+DEBUG 2021-06-27T00:34:19.111 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.112 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:19.112 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.112 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:19.112 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.112 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.113 95280 UI: raw_line (+3 times...)
+DEBUG 2021-06-27T00:34:19.113 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:19.113 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:19.113 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:19.114 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.114 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.114 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:19.144 95280 log_key:969: input: <l>
+DEBUG 2021-06-27T00:34:19.144 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.144 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:19.144 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.144 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:19.144 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.145 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.145 95280 UI: raw_line (+3 times...)
+DEBUG 2021-06-27T00:34:19.145 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:19.146 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:19.146 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:19.146 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.146 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.146 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:19.178 95280 log_key:969: input: <l>
+DEBUG 2021-06-27T00:34:19.179 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.179 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:19.179 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.179 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:19.179 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.179 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.180 95280 UI: raw_line (+3 times...)
+DEBUG 2021-06-27T00:34:19.181 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:19.181 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:19.181 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:19.181 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.181 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.181 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:19.214 95280 log_key:969: input: <l>
+DEBUG 2021-06-27T00:34:19.214 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.214 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:19.215 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.215 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:19.215 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.215 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.216 95280 UI: raw_line (+3 times...)
+DEBUG 2021-06-27T00:34:19.216 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:19.216 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:19.216 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:19.216 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.216 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.216 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:19.247 95280 log_key:969: input: <l>
+DEBUG 2021-06-27T00:34:19.247 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.247 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:19.247 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.248 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:19.248 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.248 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.249 95280 UI: raw_line (+3 times...)
+DEBUG 2021-06-27T00:34:19.249 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:19.250 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:19.250 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:19.250 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.250 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.250 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:19.281 95280 log_key:969: input: <l>
+DEBUG 2021-06-27T00:34:19.282 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.282 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:19.282 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.282 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:19.282 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.282 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.283 95280 UI: raw_line (+3 times...)
+DEBUG 2021-06-27T00:34:19.283 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:19.283 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:19.283 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:19.283 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.284 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.284 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:19.315 95280 log_key:969: input: <l>
+DEBUG 2021-06-27T00:34:19.315 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.316 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:19.316 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.316 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:19.316 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.316 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.317 95280 UI: raw_line (+3 times...)
+DEBUG 2021-06-27T00:34:19.317 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:19.317 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:19.317 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:19.317 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.318 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.318 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:19.348 95280 log_key:969: input: <l>
+DEBUG 2021-06-27T00:34:19.348 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.349 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:19.349 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.349 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:19.349 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.349 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.350 95280 UI: raw_line (+3 times...)
+DEBUG 2021-06-27T00:34:19.350 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:19.350 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:19.350 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:19.351 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.351 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.351 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:19.381 95280 log_key:969: input: <l>
+DEBUG 2021-06-27T00:34:19.382 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.382 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:19.382 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.382 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:19.382 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.382 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.383 95280 UI: raw_line (+3 times...)
+DEBUG 2021-06-27T00:34:19.383 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:19.383 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:19.383 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:19.384 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.384 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.384 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:19.414 95280 log_key:969: input: <l>
+DEBUG 2021-06-27T00:34:19.415 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.415 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:19.415 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.415 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:19.415 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.416 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.417 95280 UI: raw_line (+3 times...)
+DEBUG 2021-06-27T00:34:19.417 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:19.417 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:19.417 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:19.417 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.417 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.417 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:19.448 95280 log_key:969: input: <l>
+DEBUG 2021-06-27T00:34:19.449 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.449 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:19.449 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.449 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:19.449 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.449 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.450 95280 UI: raw_line (+3 times...)
+DEBUG 2021-06-27T00:34:19.450 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:19.450 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:19.451 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:19.451 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.451 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.451 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:19.481 95280 log_key:969: input: <l>
+DEBUG 2021-06-27T00:34:19.481 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.482 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:19.482 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.482 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:19.482 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.482 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.483 95280 UI: raw_line (+3 times...)
+DEBUG 2021-06-27T00:34:19.483 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:19.483 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:19.484 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:19.484 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.484 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.484 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:19.515 95280 log_key:969: input: <l>
+DEBUG 2021-06-27T00:34:19.515 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.515 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:19.515 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.515 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:19.515 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.516 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.516 95280 UI: raw_line (+3 times...)
+DEBUG 2021-06-27T00:34:19.517 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:19.517 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:19.517 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:19.517 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.517 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.517 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:19.548 95280 log_key:969: input: <l>
+DEBUG 2021-06-27T00:34:19.548 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.548 95280 UI: flush (+4 times...)
+DEBUG 2021-06-27T00:34:19.548 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.549 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:19.549 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.549 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:19.550 95280 UI: raw_line (+3 times...)
+DEBUG 2021-06-27T00:34:19.550 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:19.550 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:19.550 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:19.550 95280 UI: flush
+DEBUG 2021-06-27T00:34:19.550 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.551 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:19.606 95280 log_key:969: input: K_EVENT
+DEBUG 2021-06-27T00:34:19.607 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:19.607 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:19.659 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:20.107 95280 log_key:969: input: <h>
+DEBUG 2021-06-27T00:34:20.107 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:20.108 95280 UI: flush (+6 times...)
+DEBUG 2021-06-27T00:34:20.108 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:20.108 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:20.109 95280 UI: flush
+DEBUG 2021-06-27T00:34:20.109 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:20.110 95280 UI: raw_line (+3 times...)
+DEBUG 2021-06-27T00:34:20.110 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:20.110 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:20.110 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:20.111 95280 UI: flush
+DEBUG 2021-06-27T00:34:20.111 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:20.111 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:20.166 95280 log_key:969: input: K_EVENT
+DEBUG 2021-06-27T00:34:20.166 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:20.167 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:20.218 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:20.239 95280 log_key:969: input: <h>
+DEBUG 2021-06-27T00:34:20.239 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:20.239 95280 UI: flush (+6 times...)
+DEBUG 2021-06-27T00:34:20.239 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:20.240 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:20.240 95280 UI: flush
+DEBUG 2021-06-27T00:34:20.240 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:20.241 95280 UI: raw_line (+3 times...)
+DEBUG 2021-06-27T00:34:20.241 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:20.241 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:20.241 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:20.241 95280 UI: flush
+DEBUG 2021-06-27T00:34:20.241 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:20.242 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:20.296 95280 log_key:969: input: K_EVENT
+DEBUG 2021-06-27T00:34:20.298 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:20.298 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:20.353 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:21.110 95280 log_key:969: input: <r>
+DEBUG 2021-06-27T00:34:21.110 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:21.110 95280 UI: flush (+6 times...)
+DEBUG 2021-06-27T00:34:21.110 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:21.111 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:21.111 95280 UI: mode_change
+DEBUG 2021-06-27T00:34:21.111 95280 UI: flush
+DEBUG 2021-06-27T00:34:21.111 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:21.165 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:21.185 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:21.185 95280 UI: flush (+2 times...)
+DEBUG 2021-06-27T00:34:21.186 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:21.186 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:21.186 95280 UI: flush
+DEBUG 2021-06-27T00:34:21.186 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:21.186 95280 UI: flush (+1 times...)
+DEBUG 2021-06-27T00:34:21.187 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:21.187 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:21.187 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:21.193 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:21.194 95280 UI: raw_line (+3 times...)
+DEBUG 2021-06-27T00:34:21.194 95280 UI: set_icon
+DEBUG 2021-06-27T00:34:21.194 95280 UI: set_title
+DEBUG 2021-06-27T00:34:21.194 95280 UI: win_viewport
+DEBUG 2021-06-27T00:34:21.194 95280 UI: mode_change
+DEBUG 2021-06-27T00:34:21.194 95280 UI: flush
+DEBUG 2021-06-27T00:34:21.195 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:21.195 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:21.249 95280 log_key:969: input: K_EVENT
+DEBUG 2021-06-27T00:34:21.250 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:21.251 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:21.302 95280 inbuf_poll:414: blocking... events_enabled=1 events_pending=0
+DEBUG 2021-06-27T00:34:22.316 95280 log_key:969: input: <Z>
+DEBUG 2021-06-27T00:34:22.316 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:22.316 95280 UI: flush (+7 times...)
+DEBUG 2021-06-27T00:34:22.316 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:22.317 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:22.317 95280 UI: flush
+DEBUG 2021-06-27T00:34:22.317 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:22.371 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:22.424 95280 inbuf_poll:414: blocking... events_enabled=0 events_pending=0
+DEBUG 2021-06-27T00:34:22.424 95280 UI: flush (+2 times...)
+DEBUG 2021-06-27T00:34:22.426 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:22.426 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:22.426 95280 UI: flush
+DEBUG 2021-06-27T00:34:22.426 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:22.426 95280 UI: raw_line (+3 times...)
+DEBUG 2021-06-27T00:34:22.426 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:22.427 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:22.427 95280 UI: flush
+DEBUG 2021-06-27T00:34:22.429 95280 UI: raw_line
+DEBUG 2021-06-27T00:34:22.450 95280 UI: raw_line (+1 times...)
+DEBUG 2021-06-27T00:34:22.450 95280 UI: grid_cursor_goto
+DEBUG 2021-06-27T00:34:22.450 95280 UI: grid_cursor_goto (+1 times...)
+DEBUG 2021-06-27T00:34:22.450 95280 UI: flush
+DEBUG 2021-06-27T00:34:22.450 95280 stream_close:108: closing Stream: 0x7f8a6e54f1e0
+DEBUG 2021-06-27T00:34:22.461 95280 UI: stop
+INFO  2021-06-27T00:34:22.462 95280 os_exit:586: Nvim exit: 0
