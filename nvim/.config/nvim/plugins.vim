@@ -1,4 +1,9 @@
-    call plug#begin('$HOME/.local/share/nvim/site/autoload/')
+if empty(glob('$HOME/.local/share/nvim/site/autoload/plug.vim'))
+    silent !curl -fLo $HOME/.local/share/nvim/site/autoload/plug.vim --create-dirs
+                \ https:raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+endif
+
+call plug#begin('$HOME/.local/share/nvim/site/autoload/')
 
     " Git
     Plug 'tpope/vim-fugitive'
