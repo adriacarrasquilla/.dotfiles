@@ -41,7 +41,7 @@ source $HOME/.config/nvim/plugins.vim
 " Colorscheme
 let g:gruvbox_transparent_bg=1
 set termguicolors
-colorscheme gruvbox
+colorscheme gruvbox8
 hi! Normal ctermbg=NONE guibg=NONE
 
 " VimWiki

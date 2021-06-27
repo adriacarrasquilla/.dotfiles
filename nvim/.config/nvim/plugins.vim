@@ -12,7 +12,8 @@
     Plug 'jiangmiao/auto-pairs'
 
     " Gruvbox
-    Plug 'morhetz/gruvbox'
+    "Plug 'morhetz/gruvbox'
+    Plug 'lifepillar/vim-gruvbox8'
 
     " Status bar
     "Plug 'vim-airline/vim-airline'
@@ -51,6 +52,8 @@
     " Snippets
     Plug 'honza/vim-snippets' 
     Plug 'SirVer/ultisnips'
+
+    Plug 'tweekmonster/startuptime.vim'
     
 call plug#end()
 
