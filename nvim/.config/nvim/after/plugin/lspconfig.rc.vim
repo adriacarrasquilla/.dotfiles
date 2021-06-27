@@ -59,6 +59,8 @@ EOF
 lua require('lspconfig').pyright.setup{ on_attach=require'completion'.on_attach }
 set completeopt=menuone,noselect
 let g:completion_matching_strategy_list = ['exact', 'substring', 'fuzzy']
+let g:completion_enable_snippet = 'UltiSnips'
+
 noremap <leader>d     <cmd>lua vim.lsp.buf.definition()<CR>
 noremap K             <cmd>lua vim.lsp.buf.hover()<CR>
 noremap <leader>n     <cmd>lua vim.lsp.buf.references()<CR>
