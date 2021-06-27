@@ -13,6 +13,7 @@ antigen bundle zsh-vim-mode
 antigen bundle command-not-found
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle agkozak/zsh-z
 
 antigen theme robbyrussell
 
