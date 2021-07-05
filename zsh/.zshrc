@@ -20,6 +20,7 @@ antigen theme robbyrussell
 antigen apply
 
 export ZSH="$HOME/.oh-my-zsh"
+export VIRTUAL_ENV_DISABLE_PROMPT=1
 ZSH_THEME="robbyrussell"
 
 # Uncomment the following line to use case-sensitive completion.

@@ -47,5 +47,3 @@ hi! Normal ctermbg=NONE guibg=NONE
 " VimWiki
 let g:vimwiki_list = [{'path': '~/Notes/',
                       \ 'syntax': 'markdown', 'ext': '.md'}]
-
-
