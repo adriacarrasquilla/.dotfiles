@@ -61,7 +61,7 @@ window:
   # Values for `decorations` (macOS only):
   #     - transparent: Title bar, transparent background and title bar buttons
   #     - buttonless: Title bar, transparent background and no title bar buttons
-  decorations: transparent
+  #decorations: transparent
 
   # Startup Mode (changes require restart)
   #
@@ -108,8 +108,8 @@ font:
     # Font family
     #
     Default:
-      - (macOS) Menlo
-    #   - (Linux/BSD) monospace
+    #   - (macOS) Menlo
+      - (Linux/BSD) monospace
     #   - (Windows) Consolas
     family: CaskaydiaCove Nerd Font Mono
 
@@ -150,7 +150,7 @@ font:
     #style: Bold Italic
 
   # Point size
-  size: 16.0
+  size: 14.0
 
   # Offset is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter
@@ -388,7 +388,7 @@ colors:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.9
+window.opacity: 0.8
 
 #selection:
   # This string contains all characters that are used as separators for

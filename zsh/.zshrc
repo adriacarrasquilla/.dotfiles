@@ -1,8 +1,8 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+# If you come from bash you might have to change your /home/carrasq/.local/bin:/home/carrasq/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin.
+# export PATH=/home/carrasq/bin:/usr/local/bin:/home/carrasq/.local/bin:/home/carrasq/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin
 
 # Antigen
-source $HOME/Projects/antigen.zsh
+source /home/carrasq/Projects/antigen.zsh
 antigen use oh-my-zsh
 
 antigen bundle git
@@ -19,31 +19,16 @@ antigen theme robbyrussell
 
 antigen apply
 
-export ZSH="$HOME/.oh-my-zsh"
+export ZSH=/home/carrasq/.oh-my-zsh
 export VIRTUAL_ENV_DISABLE_PROMPT=1
-ZSH_THEME="robbyrussell"
+ZSH_THEME=robbyrussell
 
 # Uncomment the following line to use case-sensitive completion.
-CASE_SENSITIVE="true"
-
-# Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
-
-# Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
-
-# Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
-
-# Uncomment the following line if you want to disable marking untracked files
-# under VCS as dirty. This makes repository status check for large repositories
-# much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
-
+CASE_SENSITIVE=true
 
 plugins=(git)
 
-source $ZSH/oh-my-zsh.sh
+source /home/carrasq/.oh-my-zsh/oh-my-zsh.sh
 
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
@@ -55,6 +40,10 @@ export EDITOR='nvim'
 alias vim='nvim'
 alias conf='cd $HOME/.config/'
 alias python='python3'
+alias ll='exa --long --header --git'
+alias la='exa --long --all --header --git'
+alias gs='git status'
 
-# toolbox
-#export PATH=$HOME/.toolbox/bin:$PATH
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
