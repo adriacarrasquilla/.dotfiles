@@ -21,8 +21,8 @@ return function(s)
   -- Profile picture imagebox
   local profile_picture = wibox.widget {
     --image = icondir .. "reboot.svg",
-    image = "/home/adri/.config/awesome/src/assets/userpfp/rickastley.jpg",
-    forced_height = dpi(300),
+    image = "/home/adri/.config/awesome/src/assets/userpfp/retro.png",
+    forced_height = dpi(200),
     resize = true,
     clip_shape = function(cr, width, height)
       gears.shape.rounded_rect(cr, width, height, 30)
@@ -181,7 +181,7 @@ return function(s)
               nil,
               {
                 profile_picture,
-                margins = dpi(0),
+                margins = dpi(20),
                 widget = wibox.container.margin,
               },
               nil,
