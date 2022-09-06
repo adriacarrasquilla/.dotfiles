@@ -2,7 +2,8 @@ local hotkeys_popup = require("awful.hotkeys_popup").widget
 local gears = require("gears")
 local awful = require("awful")
 local modkey = "Mod4"
-local terminal = "alacritty"
+--local terminal = "alacritty"
+local terminal = "kitty"
 local browser = "brave"
 
 -- {{{ Mouse bindings
