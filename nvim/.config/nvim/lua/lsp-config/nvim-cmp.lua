@@ -38,6 +38,7 @@ cmp.setup {
   sources = {
     { name = 'nvim_lsp' },
     { name = 'luasnip' },
+    { name = 'ultisnips' },
   },
   formatting = {
     format = lspkind.cmp_format({

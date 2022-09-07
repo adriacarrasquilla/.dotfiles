@@ -50,6 +50,12 @@ lspconfig.pyright.setup{
     capabilities = capabilities,
 }
 
+lspconfig.texlab.setup{
+    on_attach = on_attach,
+    flags = lsp_flags,
+    capabilities = capabilities,
+}
+
 -- Lua
 local luadev = require("lua-dev").setup({})
 lspconfig.sumneko_lua.setup(luadev)
