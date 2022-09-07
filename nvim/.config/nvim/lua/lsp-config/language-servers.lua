@@ -40,8 +40,16 @@ local lsp_flags = {
   -- This is the default in Nvim 0.7+
   debounce_text_changes = 150,
 }
-require('lspconfig')['pyright'].setup{
+
+local lspconfig = require('lspconfig')
+
+-- Python
+lspconfig.pyright.setup{
     on_attach = on_attach,
     flags = lsp_flags,
     capabilities = capabilities,
 }
+
+-- Lua
+local luadev = require("lua-dev").setup({})
+lspconfig.sumneko_lua.setup(luadev)

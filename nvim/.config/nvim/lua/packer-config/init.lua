@@ -12,6 +12,7 @@ return require'packer'.startup(function()
 
     -- LSP stuff
     use 'neovim/nvim-lspconfig'
+    use "folke/lua-dev.nvim"
 
     -- Completion
     use 'hrsh7th/nvim-cmp' -- Autocompletion plugin
@@ -26,7 +27,7 @@ return require'packer'.startup(function()
       "nvim-telescope/telescope.nvim", tag = '0.1.0',
       requires = { { "nvim-lua/plenary.nvim" } }
     }
-    
+
     -- syntax highlighter
     use {
         'nvim-treesitter/nvim-treesitter',
@@ -39,6 +40,9 @@ return require'packer'.startup(function()
         "windwp/nvim-autopairs",
         config = function() require("nvim-autopairs").setup {} end
     }
+
+    -- Git
+    use { 'sindrets/diffview.nvim', requires = 'nvim-lua/plenary.nvim' }
 
     --[[ To check
         * Debugger interface: https://github.com/mfussenegger/nvim-dap
