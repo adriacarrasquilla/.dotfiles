@@ -61,6 +61,21 @@ for s = 1, screen.count() do screen[s]:connect_signal("arrange", function ()
 end)
 end
 
+client.connect_signal(
+  'tag::switched',
+  function(c)
+    if #awful.screen.focused().clients > 0 then
+      awful.screen.focused().clients[1]:emit_signal(
+        'request::activate',
+        'mouse_enter',
+        {
+          raise = true
+        }
+      )
+    end
+  end
+)
+
 -- }}}
 
 --client.connect_signal("property::floating", function (c)
