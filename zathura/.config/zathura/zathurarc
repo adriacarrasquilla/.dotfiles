@@ -1,6 +1,11 @@
 # Maps
 map <C-i> zoom in
 map <C-o> zoom out
+map <Right> navigate next
+map <Left> navigate previous
+
+# Clipboard
+set selection-clipboard clipboard
 
 # Gruvbox theme
 set notification-error-bg       "#282828" # bg
