@@ -1,5 +1,6 @@
 -- luasnip setup
 local luasnip = require 'luasnip'
+require("luasnip.loaders.from_vscode").lazy_load({ paths = { "./Projects/Snippets" } })
 local cmp = require 'cmp'
 local lspkind = require('lspkind')
 cmp.setup {

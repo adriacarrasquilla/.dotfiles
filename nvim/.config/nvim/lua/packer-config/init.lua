@@ -25,6 +25,9 @@ return require'packer'.startup(function()
     --         })
     --     end,
     -- })
+    use { "williamboman/mason-lspconfig.nvim" }
+    use { "williamboman/mason.nvim" }
+    require("mason").setup() -- not sure why config is not enough
 
     -- Completion
     use {'hrsh7th/nvim-cmp',
@@ -79,9 +82,31 @@ return require'packer'.startup(function()
         let g:vimtex_quickfix_enabled=0
     ]])
 
+    -- Notes
+    use { 'vimwiki/vimwiki' }
+
+    -- Lua
+
+    -- TODO coments highliter
+    use {
+      "folke/todo-comments.nvim",
+      requires = "nvim-lua/plenary.nvim",
+      config = function()
+        require("todo-comments").setup {
+          -- your configuration comes here
+          -- or leave it empty to use the default settings
+          -- refer to the configuration section below
+        }
+      end
+    }
+
 
     -- Git
     use { 'sindrets/diffview.nvim', requires = 'nvim-lua/plenary.nvim' }
+
+    -- Debugger
+    use { "mfussenegger/nvim-dap" }
+    use { "rcarriga/nvim-dap-ui" }
 
     --[[ To check
         * Debugger interface: https://github.com/mfussenegger/nvim-dap

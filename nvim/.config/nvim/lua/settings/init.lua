@@ -33,5 +33,7 @@ vim.cmd([[
     let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
     set termguicolors
     hi! Normal ctermbg=none ctermfg=none guifg=none guibg=none
+    let &fcs='eob: ' 
 ]])
+-- Last command in vim.cmd is to remove the end of file tildes
 set.termguicolors = true
