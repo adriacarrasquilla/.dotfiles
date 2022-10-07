@@ -46,8 +46,8 @@ window:
   # Blank space added around the window in pixels. This padding is scaled
   # by DPI and the specified value is always added at both opposing sides.
   padding:
-    x: 25
-    y: 25
+    x: 15
+    y: 10
 
   # Spread additional padding evenly around the terminal content.
   dynamic_padding: true
@@ -112,7 +112,8 @@ font:
     #   - (macOS) Menlo
       - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: CaskaydiaCove Nerd Font Mono
+    #family: CaskaydiaCove Nerd Font Mono
+    family: Cascadia Code PL
 
     # The `style` can be specified to pick a specific face.
     #style: Regular
@@ -151,7 +152,7 @@ font:
     #style: Bold Italic
 
   # Point size
-  size: 14.0
+  size: 14
 
   # Offset is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter
