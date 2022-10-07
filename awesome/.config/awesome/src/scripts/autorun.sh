@@ -34,6 +34,6 @@ run thunar --daemon
 run pa-applet
 run pamac-tray
 # blueman-applet and msm_notifier are not installed in minimal edition
+run picom --experimental-backends # --log-level "DEBUG" --log-file ~/picom.log # --config ~/.config/picom/picom.conf &
 run nitrogen --set-zoom-fill /home/adri/Wallpapers/bedroom.png
 run xrandr --output eDP-1 --mode 1680x1050
-run picom --experimental-backend

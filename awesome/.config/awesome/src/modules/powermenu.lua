@@ -21,7 +21,7 @@ return function(s)
   -- Profile picture imagebox
   local profile_picture = wibox.widget {
     --image = icondir .. "reboot.svg",
-    image = "/home/adri/.config/awesome/src/assets/userpfp/retro.png",
+    image = "/home/adri/.config/awesome/src/assets/userpfp/chad_pfp.png",
     forced_height = dpi(200),
     resize = true,
     clip_shape = function(cr, width, height)

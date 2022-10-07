@@ -133,6 +133,11 @@ globalkeys = gears.table.join(
                   awful.spawn.with_shell("/usr/bin/rofi -no-lazy-grab -show drun -theme ~/.config/rofi/launchers/type-6/style-4.rasi &>> /tmp/rofi.log")
               end,
               {description = "launch rofi", group = "launcher"}),
+    awful.key({ modkey, "Shift" }, "c",
+              function ()
+                  awful.spawn.with_shell("~/.config/rofi/scripts/select_subject.sh")
+              end,
+              {description = "Select uni subject page", group = "launcher"}),
     awful.key({ modkey,           }, "e", function () awful.spawn("/usr/bin/thunar")            end,
               {description = "launch filemanager", group = "launcher"}),
     awful.key({ modkey, "Shift"   }, "space", function () awful.layout.inc(-1)                       end,
