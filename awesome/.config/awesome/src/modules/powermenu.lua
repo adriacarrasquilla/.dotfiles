@@ -235,7 +235,7 @@ return function(s)
     type = "splash",
     visible = false,
     ontop = true,
-    bg = "#21212188",
+    bg = "#282828F0",
     height = s.geometry.height,
     width = s.geometry.width,
     x = s.geometry.x,
