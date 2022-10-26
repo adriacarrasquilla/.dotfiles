@@ -33,7 +33,7 @@ export LANG=en_US.UTF-8
 # Preferred editor for local and remote sessions
 export EDITOR='nvim'
 
-
+# Aliases
 alias vim='nvim'
 alias v='nvim'
 alias conf='cd $HOME/.config/'
@@ -43,6 +43,8 @@ alias la='exa --long --all --header --git'
 alias gs='git status'
 alias gc='git commit'
 alias o='xdg-open'
+alias open='xdg-open'
+alias n="vim -c VimwikiIndex"
 
 source /usr/share/nvm/init-nvm.sh
 
