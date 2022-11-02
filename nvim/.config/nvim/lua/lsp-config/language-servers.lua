@@ -15,8 +15,8 @@ local on_attach = function(client, bufnr)
   -- Mappings.
   -- See `:help vim.lsp.*` for documentation on any of the below functions
   local bufopts = { noremap=true, silent=true, buffer=bufnr }
-  vim.keymap.set('n', '<space>D', vim.lsp.buf.declaration, bufopts)
-  vim.keymap.set('n', '<space>d', vim.lsp.buf.definition, bufopts)
+  vim.keymap.set('n', '<space>gD', vim.lsp.buf.declaration, bufopts)
+  vim.keymap.set('n', '<space>gd', vim.lsp.buf.definition, bufopts)
   vim.keymap.set('n', 'K', vim.lsp.buf.hover, bufopts)
   --vim.keymap.set('n', 'gi', vim.lsp.buf.implementation, bufopts)
   vim.keymap.set('n', '<C-k>', vim.lsp.buf.signature_help, bufopts)
@@ -25,16 +25,16 @@ local on_attach = function(client, bufnr)
   vim.keymap.set('n', '<space>wl', function()
     print(vim.inspect(vim.lsp.buf.list_workspace_folders()))
   end, bufopts)
-  vim.keymap.set('n', '<space>gD', vim.lsp.buf.type_definition, bufopts)
+  -- vim.keymap.set('n', '<space>gD', vim.lsp.buf.type_definition, bufopts)
   vim.keymap.set('n', '<space>r', vim.lsp.buf.rename, bufopts)
   vim.keymap.set('n', '<space>ca', vim.lsp.buf.code_action, bufopts)
   vim.keymap.set('n', 'n', vim.lsp.buf.references, bufopts)
-  vim.keymap.set('n', '<space>f', vim.lsp.buf.formatting, bufopts)
+  -- vim.keymap.set('n', '<space>f', vim.lsp.buf.formatting, bufopts)
 end
 
 -- Add additional capabilities supported by nvim-cmp
-local capabilities = vim.lsp.protocol.make_client_capabilities()
-capabilities = require('cmp_nvim_lsp').update_capabilities(capabilities)
+-- local capabilities = vim.lsp.protocol.make_client_capabilities()
+capabilities = require('cmp_nvim_lsp').default_capabilities()
 
 local lsp_flags = {
   -- This is the default in Nvim 0.7+
@@ -57,5 +57,5 @@ lspconfig.texlab.setup{
 }
 
 -- Lua
-local luadev = require("lua-dev").setup({})
-lspconfig.sumneko_lua.setup(luadev)
+-- local luadev = require("lua-dev").setup({})
+-- lspconfig.sumneko_lua.setup(luadev)

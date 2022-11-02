@@ -12,19 +12,19 @@ return require'packer'.startup(function()
 
     -- LSP stuff
     use 'neovim/nvim-lspconfig'
-    use "folke/lua-dev.nvim"
-    use { 'kkharji/lspsaga.nvim' }  -- nightly
-    -- use({
-    --     "glepnir/lspsaga.nvim",
-    --     branch = "main",
-    --     config = function()
-    --         local saga = require("lspsaga")
-    --
-    --         saga.init_lsp_saga({
-    --             -- your configuration
-    --         })
-    --     end,
-    -- })
+    -- use "folke/lua-dev.nvim"
+    -- use { 'kkharji/lspsaga.nvim' }  -- nightly
+    use({
+        "glepnir/lspsaga.nvim",
+        branch = "main",
+        config = function()
+            local saga = require("lspsaga")
+
+            saga.init_lsp_saga({
+                -- your configuration
+            })
+        end,
+    })
     use { "williamboman/mason-lspconfig.nvim" }
     use { "williamboman/mason.nvim" }
     require("mason").setup() -- not sure why config is not enough
