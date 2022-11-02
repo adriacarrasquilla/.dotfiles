@@ -1,6 +1,6 @@
 local awful = require("awful")
 local beautiful = require("beautiful")
-local freedesktop = require("freedesktop")
+-- local freedesktop = require("freedesktop")
 local menubar = require("menubar")
 
 local terminal = "alacritty"
@@ -24,19 +24,19 @@ myexitmenu = {
     { "shutdown", "poweroff", "/usr/share/icons/Arc-Maia/actions/24@2x/system-shutdown.png" }
 }
 
-mymainmenu = freedesktop.menu.build({
-    before = {
-        { "Terminal", terminal, "/usr/share/icons/Gruvbox-Material-Dark/32x32/apps/Alacritty.svg" },
-        { "Browser", browser, "/usr/share/icons/Gruvbox-Material-Dark/32x32/apps/brave.svg" },
-        { "Files", filemanager, "/usr/share/icons/Gruvbox-Material-Dark/32x32/apps/thunar.svg" },
-        -- other triads can be put here
-    },
-    after = {
-        { "Awesome", myawesomemenu, "/usr/share/awesome/icons/awesome16.png" },
-        { "Exit", myexitmenu, "/usr/share/icons/Gruvbox-Material-Dark/24x24@2x/actions/exit.svg" },
-        -- other triads can be put here
-    },
-})
-
-mylauncher = awful.widget.launcher({ image = beautiful.awesome_icon,
-                                     menu = mymainmenu })
+-- mymainmenu = freedesktop.menu.build({
+--     before = {
+--         { "Terminal", terminal, "/usr/share/icons/Gruvbox-Material-Dark/32x32/apps/Alacritty.svg" },
+--         { "Browser", browser, "/usr/share/icons/Gruvbox-Material-Dark/32x32/apps/brave.svg" },
+--         { "Files", filemanager, "/usr/share/icons/Gruvbox-Material-Dark/32x32/apps/thunar.svg" },
+--         -- other triads can be put here
+--     },
+--     after = {
+--         { "Awesome", myawesomemenu, "/usr/share/awesome/icons/awesome16.png" },
+--         { "Exit", myexitmenu, "/usr/share/icons/Gruvbox-Material-Dark/24x24@2x/actions/exit.svg" },
+--         -- other triads can be put here
+--     },
+-- })
+--
+-- mylauncher = awful.widget.launcher({ image = beautiful.awesome_icon,
+--                                      menu = mymainmenu })

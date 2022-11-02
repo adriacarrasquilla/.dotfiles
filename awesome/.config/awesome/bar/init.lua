@@ -33,7 +33,7 @@ awful.screen.connect_for_each_screen(
   require("src.modules.volume_controller")(s)
 
   -- Widgets
-  s.battery = require("src.widgets.battery")()
+  -- s.battery = require("src.widgets.battery")()
   s.audio = require("src.widgets.audio")(s)
   -- s.date = require("src.widgets.date")()
   s.clock = require("src.widgets.clock")()
@@ -47,6 +47,6 @@ awful.screen.connect_for_each_screen(
   --s.cpu_freq = require("src.widgets.cpu_info")("freq", "average")
 
   require("bar.left_bar")(s, { s.layoutlist, s.taglist })
-  require("bar.right_bar")(s, { s.clock, s.network, s.audio, s.battery, s.powerbutton })
+  require("bar.right_bar")(s, { s.clock, s.network, s.audio, s.powerbutton })
 end
 )
