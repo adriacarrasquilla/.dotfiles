@@ -76,6 +76,13 @@ client.connect_signal(
   end
 )
 
+-- Automatically switch to brave's tag when called from somewhere else
+client.connect_signal("property::urgent", function(c)
+  if c.class == "Brave-browser" then
+    awful.client.urgent.jumpto(false)
+  end
+end)
+
 -- }}}
 
 --client.connect_signal("property::floating", function (c)
