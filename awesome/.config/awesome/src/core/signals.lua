@@ -83,12 +83,9 @@ client.connect_signal("property::urgent", function(c)
   end
 end)
 
--- }}}
-
---client.connect_signal("property::floating", function (c)
---    if c.floating then
---        awful.titlebar.show(c)
---    else
---        awful.titlebar.hide(c)
---    end
---end)
+-- Place floating pop ups in the center of the screen
+client.connect_signal("property::floating", function (c)
+    if c.floating then
+        awful.placement.centered(c)
+    end
+end)
