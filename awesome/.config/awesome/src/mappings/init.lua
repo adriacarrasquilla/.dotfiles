@@ -72,6 +72,12 @@ globalkeys = gears.table.join(
         end,
         {description = "focus next by index", group = "client"}
     ),
+    awful.key({ modkey,           }, "c",
+        function ()
+            awful.placement.centered(c)
+        end,
+        {description = "Center floating client", group = "client"}
+    ),
     awful.key({ modkey,           }, "k",
         function ()
             awful.client.focus.byidx(-1)
