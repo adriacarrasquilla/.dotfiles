@@ -5,6 +5,7 @@ local modkey = "Mod4"
 --local terminal = "alacritty"
 local terminal = "kitty"
 local browser = "brave"
+local theme = require("src.theme.theme")
 
 -- {{{ Mouse bindings
 root.buttons(gears.table.join(
@@ -136,7 +137,11 @@ globalkeys = gears.table.join(
               {description = "launch Browser", group = "launcher"}),
     awful.key({ modkey,     }, "space",
               function ()
-                  awful.spawn.with_shell("/usr/bin/rofi -no-lazy-grab -show drun -theme ~/.config/rofi/launchers/type-6/style-4.rasi &>> /tmp/rofi.log")
+                  awful.spawn.with_shell("/usr/bin/rofi -no-lazy-grab -show drun -theme "..
+                  "~/.config/rofi/launchers/type-6/style-4.rasi " ..
+                  [[-theme-str 'imagebox {background-image: url("]] .. theme.wallpaper .. [[", height);}']] ..
+                  "&>> /tmp/rofi.log")
+
               end,
               {description = "launch rofi", group = "launcher"}),
     awful.key({ modkey, "Shift" }, "c",
