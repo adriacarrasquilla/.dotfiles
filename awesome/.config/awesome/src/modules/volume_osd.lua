@@ -92,7 +92,7 @@ return function(s)
       right = dpi(24),
       widget = wibox.container.margin
     },
-    bg = color["bg"] .. '88',
+    bg = color["bg"],
     widget = wibox.container.background,
     ontop = true,
     visible = true,

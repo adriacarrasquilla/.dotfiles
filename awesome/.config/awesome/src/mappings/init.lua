@@ -24,7 +24,7 @@ globalkeys = gears.table.join(
       {},
       "XF86AudioLowerVolume",
       function(c)
-        awful.spawn.easy_async_with_shell("pactl set-sink-volume @DEFAULT_SINK@ -2%", function()
+        awful.spawn.easy_async_with_shell("pactl set-sink-volume @DEFAULT_SINK@ -5%", function()
           awesome.emit_signal("module::volume_osd:show", true)
           awesome.emit_signal("module::slider:update")
           awesome.emit_signal("widget::volume_osd:rerun")
@@ -36,7 +36,7 @@ globalkeys = gears.table.join(
       {},
       "XF86AudioRaiseVolume",
       function(c)
-        awful.spawn.easy_async_with_shell("pactl set-sink-volume @DEFAULT_SINK@ +2%", function()
+        awful.spawn.easy_async_with_shell("pactl set-sink-volume @DEFAULT_SINK@ +5%", function()
           awesome.emit_signal("module::volume_osd:show", true)
           awesome.emit_signal("module::slider:update")
           awesome.emit_signal("widget::volume_osd:rerun")

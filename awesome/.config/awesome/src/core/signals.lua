@@ -26,7 +26,8 @@ end)
 -- client.connect_signal("focus", function(c) c.border_color = beautiful.border_focus end)
 -- client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
 
-client.connect_signal("focus", function(c) c.border_color = "#928374" end)
+-- client.connect_signal("focus", function(c) c.border_color = "#928374" end)
+client.connect_signal("focus", function(c) c.border_color = "#689d6a" end)
 client.connect_signal("unfocus", function(c) c.border_color = "#504945" end)
 
 -- Disable borders on lone windows
@@ -87,5 +88,13 @@ end)
 client.connect_signal("property::floating", function (c)
     if c.floating then
         awful.placement.centered(c)
+    end
+end)
+
+-- Rounded corners on all clients
+local gears = require("gears")
+client.connect_signal("manage", function (c)
+    c.shape = function(cr,w,h)
+        gears.shape.rounded_rect(cr,w,h,8)
     end
 end)
