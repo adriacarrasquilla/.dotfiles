@@ -27,6 +27,7 @@ awful.screen.connect_for_each_screen(
   )
 
   require("src.modules.volume_osd")(s)
+  require("src.modules.brightness_osd")(s)
   require("src.modules.powermenu")(s)
   require("src.modules.volume_osd")(s)
   -- require("src.modules.brightness_osd")(s)

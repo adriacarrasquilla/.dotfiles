@@ -19,8 +19,22 @@ root.buttons(gears.table.join(
 -- {{{ Key bindings
 globalkeys = gears.table.join(
     -- Brightness
-    awful.key( {}, "XF86MonBrightnessDown", function() awful.util.spawn("sudo light -U 5") end  ),
-    awful.key( {}, "XF86MonBrightnessUp", function() awful.util.spawn("sudo light -A 5") end  ),
+    awful.key( {}, "XF86MonBrightnessDown",
+        function()
+            awful.util.spawn("sudo light -U 5")
+            awesome.emit_signal("module::brightness_osd:show", true)
+            awesome.emit_signal("module::brightness_slider:update")
+            awesome.emit_signal("widget::brightness_osd:rerun")
+        end
+    ),
+    awful.key( {}, "XF86MonBrightnessUp",
+        function()
+            awful.util.spawn("sudo light -A 5")
+            awesome.emit_signal("module::brightness_osd:show", true)
+            awesome.emit_signal("module::brightness_slider:update")
+            awesome.emit_signal("widget::brightness_osd:rerun")
+        end
+    ),
     awful.key(
       {},
       "XF86AudioLowerVolume",

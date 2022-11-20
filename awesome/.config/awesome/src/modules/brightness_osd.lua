@@ -12,16 +12,8 @@ local wibox = require("wibox")
 -- Icon directory path
 local icondir = awful.util.getdir("config") .. "src/assets/icons/brightness/"
 
-BACKLIGHT_MAX_BRIGHTNESS = 0
-BACKLIGHT_SEPS = 0
-awful.spawn.easy_async_with_shell(
-  "pkexec xfpm-power-backlight-helper --get-max-brightness",
-  function(stdout)
-  BACKLIGHT_MAX_BRIGHTNESS = tonumber(stdout)
-  BACKLIGHT_SEPS = BACKLIGHT_MAX_BRIGHTNESS / 100
-  BACKLIGHT_SEPS = math.floor(BACKLIGHT_SEPS)
-end
-)
+BACKLIGHT_MAX_BRIGHTNESS = 100
+BACKLIGHT_SEPS = 5
 
 return function(s)
 
@@ -63,6 +55,7 @@ return function(s)
               text = "0%",
               align = "center",
               valign = "center",
+              font = "Cascadia Code Bold",
               widget = wibox.widget.textbox
             },
             id = "label_value_layout",
@@ -74,12 +67,12 @@ return function(s)
               id = "brightness_slider",
               bar_shape = gears.shape.rounded_rect,
               bar_height = dpi(10),
-              bar_color = color["Grey800"] .. "88",
+              bar_color = color["bg"],
               bar_active_color = "#ffffff",
               handle_color = "#ffffff",
               handle_shape = gears.shape.circle,
               handle_width = dpi(10),
-              handle_border_color = color["White"],
+              handle_border_color = color["fg"],
               maximum = 100,
               widget = wibox.widget.slider
             },
@@ -99,7 +92,7 @@ return function(s)
       right = dpi(24),
       widget = wibox.container.margin
     },
-    bg = color["Grey900"] .. "88",
+    bg = color["bg"],
     widget = wibox.container.background,
     ontop = true,
     visible = true,
@@ -113,9 +106,10 @@ return function(s)
     "property::value",
     function()
     awful.spawn.easy_async_with_shell(
-      "pkexec xfpm-power-backlight-helper --get-brightness",
+      -- "pkexec xfpm-power-backlight-helper --get-brightness",
+      "light",
       function(stdout)
-      local brightness_value = math.floor((tonumber(stdout) - 1) / (BACKLIGHT_MAX_BRIGHTNESS - 1) * 100)
+      local brightness_value = math.floor(tonumber(stdout))
       brightness_osd_widget.container.osd_layout.icon_slider_layout.label_value_layout.value:set_text(tostring(brightness_value) .. "%")
 
       awesome.emit_signal(
@@ -146,9 +140,9 @@ return function(s)
 
   local update_slider = function()
     awful.spawn.easy_async_with_shell(
-      [[ pkexec xfpm-power-backlight-helper --get-brightness ]],
+      [[ light ]],
       function(stdout)
-      stdout = math.floor((tonumber(stdout) - 1) / (BACKLIGHT_MAX_BRIGHTNESS - 1) * 100)
+      stdout = math.floor(tonumber(stdout) - 1)
       brightness_osd_widget.container.osd_layout.icon_slider_layout.slider_layout.brightness_slider:set_value(stdout)
     end
     )
@@ -173,7 +167,7 @@ return function(s)
   local brightness_container = awful.popup {
     widget = wibox.container.background,
     ontop = true,
-    bg = color["Grey900"] .. "00",
+    bg = color["bg"] .. "00",
     stretch = false,
     visible = false,
     screen = s,
