@@ -118,9 +118,9 @@ local list_update = function(widget, buttons, label, data, objects)
       function()
         old_bg = tag_widget.bg
         if object == awful.screen.focused().selected_tag then
-          tag_widget.bg = color["fg"] .. "77"
+          tag_widget.bg = color["fg"] .. "bb"
         else
-          tag_widget.bg = color["bg1"] .. '77'
+          tag_widget.bg = color["bg1"] .. 'bb'
         end
         local w = mouse.current_wibox
         if w then
@@ -134,9 +134,9 @@ local list_update = function(widget, buttons, label, data, objects)
       "button::press",
       function()
         if object == awful.screen.focused().selected_tag then
-          tag_widget.bg = '#bbbbbb' .. 'dd'
+          tag_widget.bg = color["fg"] .. 'dd'
         else
-          tag_widget.bg = '#3A475C' .. 'dd'
+          tag_widget.bg = color["fg"] .. 'dd'
         end
       end
     )
@@ -145,9 +145,9 @@ local list_update = function(widget, buttons, label, data, objects)
       "button::release",
       function()
         if object == awful.screen.focused().selected_tag then
-          tag_widget.bg = '#dddddd' .. 'dd'
+          tag_widget.bg = color["fg"] .. '99'
         else
-          tag_widget.bg = '#3A475C' .. 'dd'
+          tag_widget.bg = color["fg"] .. '99'
         end
       end
     )
