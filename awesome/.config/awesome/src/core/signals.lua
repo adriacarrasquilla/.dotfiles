@@ -1,5 +1,6 @@
 local awful = require("awful")
 local beautiful = require("beautiful")
+local color = require("src.theme.colors")
 -- Signal function to execute when a new client appears.
 client.connect_signal("manage", function (c)
     -- Set the windows at the slave,
@@ -15,19 +16,7 @@ client.connect_signal("manage", function (c)
 end)
 
 
--- Enable sloppy focus, so that focus follows mouse.
--- client.connect_signal("mouse::enter", function(c)
---     if awful.layout.get(c.screen) ~= awful.layout.suit.magnifier
---         and awful.client.focus.filter(c) then
---         client.focus = c
---     end
--- end)
-
--- client.connect_signal("focus", function(c) c.border_color = beautiful.border_focus end)
--- client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
-
--- client.connect_signal("focus", function(c) c.border_color = "#928374" end)
-client.connect_signal("focus", function(c) c.border_color = "#689d6a" end)
+client.connect_signal("focus", function(c) c.border_color = color["bg_aqua"] end)
 client.connect_signal("unfocus", function(c) c.border_color = "#504945" end)
 
 -- Disable borders on lone windows
@@ -36,6 +25,7 @@ for s = 1, screen.count() do screen[s]:connect_signal("arrange", function ()
   local clients = awful.client.visible(s)
   local layout = awful.layout.getname(awful.layout.get(s))
 
+  -- for c in clients do
   for _, c in pairs(clients) do
     -- No borders with only one humanly visible client
     if c.maximized then

@@ -49,7 +49,7 @@ theme.fg_urgent     = fg_purple
 theme.fg_minimize   = fg
 
 theme.useless_gap   = dpi(0)
-theme.border_width  = dpi(2)
+theme.border_width  = dpi(3)
 theme.border_normal = bg
 theme.border_focus  = fg
 theme.border_marked = bg_red
