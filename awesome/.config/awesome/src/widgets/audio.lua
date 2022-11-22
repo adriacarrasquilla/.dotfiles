@@ -91,7 +91,7 @@ return function(s)
       function(stdout)
         if stdout:match("yes") then
           audio_widget.container.audio_layout.label.visible = false
-          audio_widget.container:set_right(0)
+          audio_widget.container:set_right(5)
           audio_widget.container.audio_layout.icon_margin.icon_layout.icon:set_image(
             gears.color.recolor_image(icondir .. "volume-mute" .. ".svg", color["bg"]))
           awesome.emit_signal("get::volume_mute", true)
