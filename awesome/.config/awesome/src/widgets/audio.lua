@@ -79,7 +79,7 @@ return function(s)
         end
         audio_widget.container.audio_layout.label:set_text(volume .. "%")
         audio_widget.container.audio_layout.icon_margin.icon_layout.icon:set_image(
-          gears.color.recolor_image(icon .. ".svg", color["bg"]))
+          gears.color.recolor_image(icon .. ".svg", "#101010"))--color["bg"]))
         awesome.emit_signal("get::volume", volume)
       end
     )
@@ -93,7 +93,7 @@ return function(s)
           audio_widget.container.audio_layout.label.visible = false
           audio_widget.container:set_right(5)
           audio_widget.container.audio_layout.icon_margin.icon_layout.icon:set_image(
-            gears.color.recolor_image(icondir .. "volume-mute" .. ".svg", color["bg"]))
+            gears.color.recolor_image(icondir .. "volume-mute" .. ".svg", "#101010")) -- color["bg"]))
           awesome.emit_signal("get::volume_mute", true)
         else
           audio_widget.container:set_right(10)
