@@ -125,6 +125,19 @@ globalkeys = gears.table.join(
     -- Standard program
     awful.key({ modkey,           }, "Return", function () awful.spawn(terminal) end,
               {description = "open a terminal", group = "launcher"}),
+    awful.key({ modkey, "Shift"   }, "n",
+                function ()
+                    awful.spawn(terminal .. " nvim -c VimwikiIndex",
+                        {
+                            floating  = true,
+                            honor_padding = true,
+                            honor_workarea = true,
+                            placement = awful.placement.centered,
+                        }
+                    )
+                end,
+                {description = "open vimwiki", group = "launcher"}
+              ),
     awful.key({ modkey,           }, "z", function () awful.spawn(terminal) end,
               {description = "open a terminal", group = "launcher"}),
     awful.key({ modkey, "Control" }, "r", awesome.restart,
