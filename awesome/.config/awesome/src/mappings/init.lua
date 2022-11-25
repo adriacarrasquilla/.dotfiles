@@ -81,6 +81,16 @@ globalkeys = gears.table.join(
     awful.key({ modkey,           }, "Escape", awful.tag.history.restore,
               {description = "go back", group = "tag"}),
 
+    awful.key({ modkey,           }, "0",
+        function ()
+            awful.layout.set(awful.layout.suit.spiral)
+            awful.spawn("kitty htop")
+            awful.spawn("kitty cmatrix -b -u 3 -C red")
+            awful.spawn("kitty cmatrix -b -u 6 -C yellow")
+            awful.spawn("kitty cmatrix -b -u 9 -C blue")
+        end,
+        {description = "hax", group = "hotkeys"}
+    ),
     awful.key({ modkey,           }, "j",
         function ()
             awful.client.focus.byidx( 1)
