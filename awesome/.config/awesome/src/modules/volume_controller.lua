@@ -148,16 +148,16 @@ return function(s)
         "update::background:vol",
         function(new_node)
           if node == new_node then
-            old_bg = color["bg_purple"]
+            old_bg = color["bg_yellow"]
             old_fg = color["bg"]
-            bg = color["bg_purple"]
+            bg = color["bg_yellow"]
             fg = color["bg"]
-            device.background:set_bg(color["bg_purple"])
+            device.background:set_bg(color["bg_yellow"])
             device.background:set_fg(color["bg"])
           else
-            fg = color["bg_purple"]
+            fg = color["bg_yellow"]
             bg = color["bg"].."99"
-            device.background:set_fg(color["bg_purple"])
+            device.background:set_fg(color["bg_yellow"])
             device.background:set_bg(color["bg"].."99")
           end
         end
@@ -168,14 +168,14 @@ return function(s)
           if stdout:gsub("\n", "") ~= "" then
             local node_active = stdout:gsub("\n", "")
             if node == node_active then
-              bg = color["bg_purple"]
+              bg = color["bg_yellow"]
               fg = color["bg"]
-              device.background:set_bg(color["bg_purple"])
+              device.background:set_bg(color["bg_yellow"])
               device.background:set_fg(color["bg"])
             else
-              fg = color["bg_purple"]
+              fg = color["bg_yellow"]
               bg = color["bg"].."99"
-              device.background:set_fg(color["bg_purple"])
+              device.background:set_fg(color["bg_yellow"])
               device.background:set_bg(color["bg"].."99")
             end
           else
@@ -185,14 +185,14 @@ return function(s)
                 if stdout2:gsub("\n", "") ~= "" then
                   local node_active = stdout2:gsub("\n", "")
                   if node == node_active then
-                      bg = color["bg_purple"]
+                      bg = color["bg_yellow"]
                       fg = color["bg"]
-                      device.background:set_bg(color["bg_purple"])
+                      device.background:set_bg(color["bg_yellow"])
                       device.background:set_fg(color["bg"])
                   else
-                      fg = color["bg_purple"]
+                      fg = color["bg_yellow"]
                       bg = color["bg"].."99"
-                      device.background:set_fg(color["bg_purple"])
+                      device.background:set_fg(color["bg_yellow"])
                       device.background:set_bg(color["bg"].."99")
                   end
                 end
@@ -300,17 +300,17 @@ return function(s)
         "update::background:mic",
         function(new_node)
           if node == new_node then
-            old_bg = color["Blue200"]
+            old_bg = color["bg_green"]
             old_fg = color["Grey900"]
-            bg = color["Blue200"]
-            fg = color["Grey900"]
-            device.background:set_bg(color["Blue200"])
-            device.background:set_fg(color["Grey900"])
+            bg = color["bg_green"]
+            fg = color["bg"]
+            device.background:set_bg(color["bg_green"])
+            device.background:set_fg(color["bg"])
           else
-            fg = color["Blue200"]
-            bg = color["Grey700"]
-            device.background:set_fg(color["Blue200"])
-            device.background:set_bg(color["Grey700"])
+            fg = color["bg_green"]
+            bg = color["bg"]
+            device.background:set_fg(color["bg_green"])
+            device.background:set_bg(color["bg"])
           end
         end
       )
@@ -319,15 +319,15 @@ return function(s)
         function(stdout)
           local node_active = stdout:gsub("\n", "")
           if node == node_active then
-            bg = color["Blue200"]
-            fg = color["Grey900"]
-            device.background:set_bg(color["Blue200"])
-            device.background:set_fg(color["Grey900"])
+            bg = color["bg_green"]
+            fg = color["bg"]
+            device.background:set_bg(color["bg_green"])
+            device.background:set_fg(color["bg"])
           else
-            fg = color["Blue200"]
-            bg = color["Grey700"]
-            device.background:set_fg(color["Blue200"])
-            device.background:set_bg(color["Grey700"])
+            fg = color["bg_green"]
+            bg = color["bg"]
+            device.background:set_fg(color["bg_green"])
+            device.background:set_bg(color["bg"])
           end
         end
       )
@@ -337,15 +337,15 @@ return function(s)
           if stdout:gsub("\n", "") ~= "" then
             local node_active = stdout:gsub("\n", "")
             if node == node_active then
-              bg = color["Blue200"]
-              fg = color["Grey900"]
-              device.background:set_bg(color["Blue200"])
-              device.background:set_fg(color["Grey900"])
+              bg = color["bg_green"]
+              fg = color["bg"]
+              device.background:set_bg(color["bg_green"])
+              device.background:set_fg(color["bg"])
             else
-              fg = color["Blue200"]
-              bg = color["Grey700"]
-              device.background:set_fg(color["Blue200"])
-              device.background:set_bg(color["Grey700"])
+              fg = color["bg_green"]
+              bg = color["bg"]
+              device.background:set_fg(color["bg_green"])
+              device.background:set_bg(color["bg"])
             end
           else
             awful.spawn.easy_async_with_shell(
@@ -354,15 +354,15 @@ return function(s)
                 if stdout2:gsub("\n", "") ~= "" then
                   local node_active = stdout:gsub("\n", "")
                   if node == node_active then
-                    bg = color["Blue200"]
-                    fg = color["Grey900"]
-                    device.background:set_bg(color["Blue200"])
-                    device.background:set_fg(color["Grey900"])
+                    bg = color["bg_green"]
+                    fg = color["bg"]
+                    device.background:set_bg(color["bg_green"])
+                    device.background:set_fg(color["bg"])
                   else
-                    fg = color["Blue200"]
-                    bg = color["Grey700"]
-                    device.background:set_fg(color["Blue200"])
-                    device.background:set_bg(color["Grey700"])
+                    fg = color["bg_green"]
+                    bg = color["bg"]
+                    device.background:set_fg(color["bg_green"])
+                    device.background:set_bg(color["bg"])
                   end
                 end
               end
@@ -422,7 +422,7 @@ return function(s)
               {
                 {
                   resize = false,
-                  image = gears.color.recolor_image(icondir .. "menu-down.svg", color["bg_purple"]),
+                  image = gears.color.recolor_image(icondir .. "menu-down.svg", color["bg_yellow"]),
                   widget = wibox.widget.imagebox,
                   id = "icon"
                 },
@@ -445,7 +445,7 @@ return function(s)
             },
             id = "audio_bg",
             bg = color["bg"],
-            fg = color["bg_purple"],
+            fg = color["bg_yellow"],
             shape = function(cr, width, height)
               gears.shape.rounded_rect(cr, width, height, 4)
             end,
@@ -469,7 +469,7 @@ return function(s)
               {
                 {
                   resize = false,
-                  image = gears.color.recolor_image(icondir .. "menu-down.svg", color["fg_blue"]),
+                  image = gears.color.recolor_image(icondir .. "menu-down.svg", color["bg_green"]),
                   widget = wibox.widget.imagebox,
                   id = "icon",
                 },
@@ -492,7 +492,7 @@ return function(s)
             },
             id = "mic_bg",
             bg = color["bg"],
-            fg = color["fg_blue"],
+            fg = color["bg_green"],
             shape = function(cr, width, height)
               gears.shape.rounded_rect(cr, width, height, 4)
             end,
@@ -515,7 +515,7 @@ return function(s)
             {
               resize = false,
               widget = wibox.widget.imagebox,
-              image = gears.color.recolor_image(icondir .. "volume-high.svg", color["bg_purple"]),
+              image = gears.color.recolor_image(icondir .. "volume-high.svg", color["bg_yellow"]),
               id = "icon",
             },
             {
@@ -524,11 +524,11 @@ return function(s)
                   gears.shape.rounded_rect(cr, width, height, 5)
                 end,
                 bar_height = dpi(5),
-                bar_color = color["bg_purple"].."99",
-                bar_active_color = color["bg_purple"],
-                handle_color = color["bg_purple"],
+                bar_color = color["bg_yellow"].."99",
+                bar_active_color = color["bg_yellow"],
+                handle_color = color["bg_yellow"],
                 handle_shape = gears.shape.circle,
-                handle_border_color = color["bg_purple"],
+                handle_border_color = color["bg_yellow"],
                 handle_width = dpi(15),
                 maximum = 100,
                 forced_height = dpi(26),
@@ -555,7 +555,7 @@ return function(s)
             {
               resize = false,
               widget = wibox.widget.imagebox,
-              image = gears.color.recolor_image(icondir .. "microphone.svg", color["bg_blue"]),
+              image = gears.color.recolor_image(icondir .. "microphone.svg", color["bg_green"]),
               id = "icon"
             },
             {
@@ -564,11 +564,11 @@ return function(s)
                   gears.shape.rounded_rect(cr, width, height, 5)
                 end,
                 bar_height = dpi(5),
-                bar_color = color["bg_blue"].."99",
-                bar_active_color = color["bg_blue"],
-                handle_color = color["bg_blue"],
+                bar_color = color["bg_green"].."99",
+                bar_active_color = color["bg_green"],
+                handle_color = color["bg_green"],
                 handle_shape = gears.shape.circle,
-                handle_border_color = color["bg_blue"],
+                handle_border_color = color["bg_green"],
                 handle_width = dpi(15),
                 maximum = 100,
                 forced_height = dpi(26),
@@ -595,8 +595,8 @@ return function(s)
       widget = wibox.container.margin
     },
     bg = color["bg"],
-    border_color = color["fg"],
-    border_width = dpi(4),
+    border_color = color["bg_yellow"],
+    border_width = dpi(3),
     shape = function(cr, width, height)
       gears.shape.rounded_rect(cr, width, height, 12)
     end,
@@ -619,12 +619,12 @@ return function(s)
         audio_bg.shape = function(cr, width, height)
           gears.shape.partially_rounded_rect(cr, width, height, true, true, false, false, 4)
         end
-        audio_volume.icon:set_image(gears.color.recolor_image(icondir .. "menu-up.svg", color["fg_coral"]))
+        audio_volume.icon:set_image(gears.color.recolor_image(icondir .. "menu-up.svg", color["bg_yellow"]))
       else
         audio_bg.shape = function(cr, width, height)
           gears.shape.rounded_rect(cr, width, height, 4)
         end
-        audio_volume.icon:set_image(gears.color.recolor_image(icondir .. "menu-down.svg", color["fg_coral"]))
+        audio_volume.icon:set_image(gears.color.recolor_image(icondir .. "menu-down.svg", color["bg_yellow"]))
       end
     end
   )
@@ -644,12 +644,12 @@ return function(s)
         mic_selector_margin.mic_bg.shape = function(cr, width, height)
           gears.shape.partially_rounded_rect(cr, width, height, true, true, false, false, 4)
         end
-        mic_volume.icon:set_image(gears.color.recolor_image(icondir .. "menu-up.svg", color["fg_coral"]))
+        mic_volume.icon:set_image(gears.color.recolor_image(icondir .. "menu-up.svg", color["bg_green"]))
       else
         mic_bg.shape = function(cr, width, height)
           gears.shape.rounded_rect(cr, width, height, 4)
         end
-        mic_volume.icon:set_image(gears.color.recolor_image(icondir .. "menu-down.svg", color["fg_coral"]))
+        mic_volume.icon:set_image(gears.color.recolor_image(icondir .. "menu-down.svg", color["bg_green"]))
       end
     end
   )
@@ -784,10 +784,10 @@ return function(s)
         volume_controller:get_children_by_id("mic_volume_margin")[1].mic_volume.slider_margin.slider:set_value(tonumber(volume))
         if volume > 0 then
           volume_controller:get_children_by_id("mic_volume_margin")[1].icon:set_image(gears.color.recolor_image(icondir
-            .. "microphone.svg", color["fg_blue"]))
+            .. "microphone.svg", color["bg_green"]))
         else
           volume_controller:get_children_by_id("mic_volume_margin")[1].icon:set_image(gears.color.recolor_image(icondir
-            .. "microphone-off.svg", color["fg_blue"]))
+            .. "microphone-off.svg", color["bg_green"]))
         end
       end
     )
@@ -803,7 +803,7 @@ return function(s)
         if stdout:match("yes") then
           volume_controller:get_children_by_id("mic_volume_margin")[1].mic_volume.slider_margin.slider:set_value(tonumber(0))
           volume_controller:get_children_by_id("mic_volume_margin")[1].icon:set_image(gears.color.recolor_image(icondir
-            .. "microphone-off.svg", color["fg_blue"]))
+            .. "microphone-off.svg", color["bg_green"]))
         else
           get_mic_volume()
         end
@@ -884,7 +884,7 @@ return function(s)
       volume_controller.controller_margin.controller_layout.audio_volume_margin.audio_volume.slider_margin.slider:
           set_value(volume)
       volume_controller.controller_margin.controller_layout.audio_volume_margin.audio_volume.icon:set_image(gears.color.
-        recolor_image(icon .. ".svg", color["bg_purple"]))
+        recolor_image(icon .. ".svg", color["bg_yellow"]))
     end
   )
 
@@ -894,7 +894,7 @@ return function(s)
     function(mute)
       if mute then
         volume_controller.controller_margin.controller_layout.audio_volume_margin.audio_volume.icon:set_image(gears.
-          color.recolor_image(icondir .. "volume-mute.svg", color["bg_purple"]))
+          color.recolor_image(icondir .. "volume-mute.svg", color["bg_yellow"]))
       end
     end
   )
@@ -905,10 +905,10 @@ return function(s)
     function(volume)
       if volume > 0 then
         volume_controller:get_children_by_id("mic_volume_margin")[1].mic_volume.icon:set_image(gears.color.recolor_image(icondir
-          .. "microphone.svg", color["fg_blue"]))
+          .. "microphone.svg", color["bg_green"]))
       else
         volume_controller:get_children_by_id("mic_volume_margin")[1].mic_volume.icon:set_image(gears.color.recolor_image(icondir
-          .. "microphone-off.svg", color["fg_blue"]))
+          .. "microphone-off.svg", color["bg_green"]))
       end
     end
   )
