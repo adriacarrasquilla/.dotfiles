@@ -9,6 +9,7 @@ local dpi = require("beautiful").xresources.apply_dpi
 local gears = require("gears")
 local naughty = require("naughty")
 local wibox = require("wibox")
+local globals = require("src.globals")
 --require("src.core.signals")
 
 -- Icon directory path
@@ -17,7 +18,7 @@ local icondir = awful.util.getdir("config") .. "src/assets/icons/network/"
 -- Insert your interfaces here, get the from ip a
 local interfaces = {
   wlan_interface = "wlp3s0",
-  lan_interface = nil
+  lan_interface = "enp42s0"
 }
 
 local network_mode = nil
@@ -58,8 +59,8 @@ return function()
         layout = wibox.layout.fixed.horizontal
       },
       id = "container",
-      left = dpi(8),
-      right = dpi(8),
+      left = dpi(globals.network_left_margin),
+      right = dpi(globals.network_right_margin),
       widget = wibox.container.margin
     },
     bg = color["bg_blue"],
@@ -224,7 +225,9 @@ return function()
         end
         network_widget.container.network_layout.label.visible = false
         network_widget.container.network_layout.spacing = dpi(0)
-        network_widget.container.network_layout.icon_margin.icon_layout.icon:set_image(icondir .. icon .. ".svg")
+        network_widget.container.network_layout.icon_margin.icon_layout.icon:set_image(
+            gears.color.recolor_image(icondir .. icon .. ".svg", color["bg"])
+        )
       end
     )
 
