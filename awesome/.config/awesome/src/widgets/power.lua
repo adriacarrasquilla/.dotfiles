@@ -8,6 +8,7 @@ local color = require("src.theme.colors")
 local dpi = require("beautiful").xresources.apply_dpi
 local gears = require("gears")
 local wibox = require("wibox")
+local globals = require("src.globals")
 --require("src.core.signals")
 
 -- Icon directory path
@@ -37,8 +38,8 @@ return function()
         layout = wibox.layout.fixed.horizontal
       },
       id = "container",
-      left = dpi(8),
-      right = dpi(8),
+      left = dpi(globals.powermenu_margin),
+      right = dpi(globals.powermenu_margin),
       widget = wibox.container.margin
     },
     bg = color["bg_red"],

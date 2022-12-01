@@ -10,4 +10,6 @@ g.right_b_left_pad = 6
 g.network_left_margin = 5
 g.network_right_margin = 2
 
+g.powermenu_margin = 4
+
 return g
