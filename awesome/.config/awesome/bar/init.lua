@@ -3,7 +3,14 @@
 --------------------------------------------------------------------------------------------------------------
 -- Awesome Libs
 local awful = require("awful")
+local globals = require("src.globals")
 
+local naughty = require("naughty")
+-- naughty.notify({
+--   preset = naughty.config.presets.critical,
+--   title = "L'has liat tiu",
+--   text = tostring(globals.use_battery)
+-- })
 
 awful.screen.connect_for_each_screen(
 -- For each screen this function is called once
@@ -30,16 +37,21 @@ awful.screen.connect_for_each_screen(
   require("src.modules.brightness_osd")(s)
   require("src.modules.powermenu")(s)
   require("src.modules.volume_osd")(s)
-  -- require("src.modules.brightness_osd")(s)
+  require("src.modules.brightness_osd")(s)
   require("src.modules.volume_controller")(s)
 
   -- Widgets
-  s.battery = require("src.widgets.battery")()
+  if globals.use_battery == true then
+    s.battery = require("src.widgets.battery")()
+  else
+    s.battery = nil
+  end
   s.audio = require("src.widgets.audio")(s)
   s.date = require("src.widgets.date")()
   s.clock = require("src.widgets.clock")()
   --s.bluetooth = require("src.widgets.bluetooth")()
   s.layoutlist = require("src.widgets.layout_list")()
+  
   s.powerbutton = require("src.widgets.power")()
   -- s.kblayout = require("src.widgets.kblayout")(s)
   s.taglist = require("src.widgets.taglist")(s)

@@ -7,6 +7,7 @@ local color = require("src.theme.colors")
 local dpi = require("beautiful").xresources.apply_dpi
 local gears = require("gears")
 local wibox = require("wibox")
+local globals = require("src.globals")
 
 return function(s, widgets)
 
@@ -29,7 +30,7 @@ return function(s, widgets)
 
   local function prepare_widgets(widgets)
     local layout = {
-      forced_height = 35,
+      forced_height = globals.bar_height,
       layout = wibox.layout.fixed.horizontal
     }
     for i, widget in pairs(widgets) do
