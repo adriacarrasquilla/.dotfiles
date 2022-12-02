@@ -1,3 +1,4 @@
 */plugged/*
 .nvimlog
 **/packer_compiled.lua
+*/globals/init.lua
