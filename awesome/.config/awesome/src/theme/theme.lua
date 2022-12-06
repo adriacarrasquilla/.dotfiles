@@ -10,6 +10,8 @@ local gfs = require("gears.filesystem")
 local themes_path = gfs.get_themes_dir()
 local wallpaper_path = os.getenv( "HOME" ) .. '/Wallpapers/'
 
+local globals = require("src.globals")
+
 local theme = {}
 
 -- Background colors
@@ -144,7 +146,10 @@ function scandir(directory)
 end
 local walls = scandir(wallpaper_path)
 
-theme.wallpaper = wallpaper_path .. walls[math.random(#walls)]
-theme.wallpaper = wallpaper_path .. "waves.jpg" -- Overriding random
+if globals.rand_wall == true then
+    theme.wallpaper = wallpaper_path .. walls[math.random(#walls)]
+else
+    theme.wallpaper = wallpaper_path .. globals.wallpaper
+end
 
 return theme
