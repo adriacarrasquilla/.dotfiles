@@ -33,6 +33,5 @@ run thunar --daemon
 run pa-applet
 run pamac-tray
 run picom --experimental-backends # --log-level "DEBUG" --log-file ~/picom.log # --config ~/.config/picom/picom.conf &
-run nitrogen --set-zoom-fill /home/adri/Wallpapers/waves.jpg
 run xrandr --output eDP-1 --mode 1680x1050
 run xrandr --output DP-2 --mode 3440x1440 --rate 144.00
