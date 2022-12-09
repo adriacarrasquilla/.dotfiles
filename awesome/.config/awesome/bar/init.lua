@@ -53,13 +53,14 @@ awful.screen.connect_for_each_screen(
   s.layoutlist = require("src.widgets.layout_list")()
   
   s.powerbutton = require("src.widgets.power")()
-  -- s.kblayout = require("src.widgets.kblayout")(s)
+  s.kblayout = require("src.widgets.kblayout")(s)
+  -- s.kblayout = nil
   s.taglist = require("src.widgets.taglist")(s)
   s.network = require("src.widgets.network")(s)
   -- s.tasklist = require("src.widgets.tasklist")(s)
   --s.cpu_freq = require("src.widgets.cpu_info")("freq", "average")
 
   require("bar.left_bar")(s, { s.layoutlist, s.taglist })
-  require("bar.right_bar")(s, { s.date, s.clock, s.network, s.audio, s.battery, s.powerbutton })
+  require("bar.right_bar")(s, { s.date, s.clock, s.network, s.kblayout, s.audio, s.battery, s.powerbutton })
 end
 )
