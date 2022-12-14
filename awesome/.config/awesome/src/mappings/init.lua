@@ -70,6 +70,13 @@ globalkeys = gears.table.join(
       end,
       { description = "Mute volume", group = "System" }
     ),
+    awful.key(
+      {"Control", }, "space",
+      function(c)
+        awesome.emit_signal("kblayout::toggle")
+      end,
+      { description = "Toggle keyboard input", group = "System" }
+    ),
     --
     --
     awful.key({ modkey,           }, "s",      hotkeys_popup.show_help,
