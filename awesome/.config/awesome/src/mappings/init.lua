@@ -71,7 +71,7 @@ globalkeys = gears.table.join(
       { description = "Mute volume", group = "System" }
     ),
     awful.key(
-      {"Control", }, "space",
+      {"Control", "Shift"}, "space",
       function(c)
         awesome.emit_signal("kblayout::toggle")
       end,
