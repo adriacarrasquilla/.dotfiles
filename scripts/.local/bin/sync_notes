@@ -1,0 +1,25 @@
+#!/usr/bin/zsh
+# This script automatically pushes changes from
+# the notes repository to github.
+
+cd ~/Notes
+
+out=$(git fetch --dry-run | wc -m)
+
+if [[ $out == 0 ]]; then
+    commit_msg="Updates $(date +%m-%d-%y-%H%M%S)"
+    git add . &> /dev/null 
+    git commit -m "$commit_msg" &> /dev/null 
+    if [[ $? != 0 ]]; then
+        echo "Nothing to commit or failed" && exit 1
+    fi
+    git push &> /dev/null 
+    if [[ $? != 0 ]]; then
+        echo "Failed to push" && exit 1
+    fi
+    echo "Notes changes pushed to github"
+    exit 0
+else
+    echo "There are remote changes. Sync manually"
+    exit 1
+fi
