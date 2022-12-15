@@ -2,6 +2,10 @@
 source $HOME/Projects/antigen.zsh
 antigen use oh-my-zsh
 
+# cuda stuff
+export PATH=/usr/local/cuda-11/bin${PATH:+:${PATH}}$
+export LD_LIBRARY_PATH=/usr/local/cuda-11/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+
 antigen bundle git
 antigen bundle heroku
 antigen bundle pip
@@ -37,7 +41,7 @@ export EDITOR='nvim'
 alias vim='nvim'
 alias v='nvim'
 alias conf='cd $HOME/.config/'
-alias python='python3'
+alias python='python3.8'
 alias ll='exa --long --header --git'
 alias la='exa --long --all --header --git'
 alias gs='git status'
@@ -46,8 +50,9 @@ alias o='xdg-open'
 alias open='xdg-open'
 alias n="vim -c VimwikiIndex"
 
-source /usr/share/nvm/init-nvm.sh
+# source /usr/share/nvm/init-nvm.sh
 
 export PATH=$PATH:~/.config/rofi/scripts
 export PATH=$PATH:~/.cargo/bin
 export PATH=$PATH:~/.local/bin
+
