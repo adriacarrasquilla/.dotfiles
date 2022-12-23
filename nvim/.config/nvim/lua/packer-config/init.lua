@@ -21,7 +21,6 @@ return require'packer'.startup(function()
     }
     require("mason").setup() -- not sure why config is not enough
 
-    -- use "folke/lua-dev.nvim"
     -- use { 'kkharji/lspsaga.nvim' }  -- nightly
     use({
         "glepnir/lspsaga.nvim",
@@ -37,16 +36,12 @@ return require'packer'.startup(function()
 
     -- Completion
     use {'hrsh7th/nvim-cmp',
-        requires = {
-        "quangnguyen30192/cmp-nvim-ultisnips",
+        requires = { "quangnguyen30192/cmp-nvim-ultisnips", "hrsh7th/cmp-nvim-lsp", "saadparwaiz1/cmp_luasnip" },
         config = function()
           -- optional call to setup (see customization section)
           require("cmp_nvim_ultisnips").setup{}
         end,
-      },
     }  -- Autocompletion plugin
-    use 'hrsh7th/cmp-nvim-lsp' -- LSP source for nvim-cmp
-    use 'saadparwaiz1/cmp_luasnip' -- Snippets source for nvim-cmp
     use 'L3MON4D3/LuaSnip' -- Snippets plugin
     use 'onsails/lspkind-nvim' -- icons on completion
     use { "SirVer/ultisnips" }
@@ -119,7 +114,7 @@ return require'packer'.startup(function()
 
     -- Git
     use { 'sindrets/diffview.nvim', requires = 'nvim-lua/plenary.nvim' }
-    use { 'tpope/vim-fugitive' } 
+    use { 'tpope/vim-fugitive' }
 
     -- Debugger
     use { "mfussenegger/nvim-dap" }
