@@ -31,8 +31,8 @@ set.title = true
 
 set.swapfile = false
 set.backup = false
-set.undodir = os.getenv("HOME") .. "/.vim/undodir"
-set.undofile = false
+set.undodir = os.getenv("HOME").."/.vim/"
+set.undofile = true
 
 -- hacky stuff to fix color mess in tmux and terminals
 vim.cmd([[
