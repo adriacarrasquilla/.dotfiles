@@ -41,6 +41,11 @@ local lsp_flags = {
   debounce_text_changes = 150,
 }
 
+require('fidget').setup()
+require('neodev').setup({
+    --neodev setup
+})
+
 local lspconfig = require('lspconfig')
 
 -- Python
@@ -56,6 +61,12 @@ lspconfig.texlab.setup{
     capabilities = capabilities,
 }
 
--- Lua
--- local luadev = require("lua-dev").setup({})
--- lspconfig.sumneko_lua.setup(luadev)
+lspconfig.sumneko_lua.setup({
+  settings = {
+    Lua = {
+      completion = {
+        callSnippet = "Replace"
+      }
+    }
+  }
+})

@@ -15,10 +15,12 @@ return require'packer'.startup(function()
         requires = {
             "williamboman/mason-lspconfig.nvim",
             "williamboman/mason.nvim",
-            "j-hui/fidget.nvim"
+            "j-hui/fidget.nvim",
+            "folke/neodev.nvim",
         }
     }
     require("mason").setup() -- not sure why config is not enough
+
     -- use "folke/lua-dev.nvim"
     -- use { 'kkharji/lspsaga.nvim' }  -- nightly
     use({
@@ -53,9 +55,11 @@ return require'packer'.startup(function()
     -- Telescope
     -- make sure to install ripgrep from BurntSushi/ripgrep
     use {
-      "nvim-telescope/telescope.nvim", tag = '0.1.0',
-      requires = { { "nvim-lua/plenary.nvim" } }
+      "nvim-telescope/telescope.nvim", branch = '0.1.x',
+      requires = { "nvim-lua/plenary.nvim" }
     }
+
+    use { "nvim-telescope/telescope-fzf-native.nvim", run = 'make', cond = vim.fn.executable 'make' == 1 }
 
     -- syntax highlighter
     use {
