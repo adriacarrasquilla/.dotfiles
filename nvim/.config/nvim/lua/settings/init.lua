@@ -5,10 +5,11 @@ set.relativenumber = true
 set.nu = true
 
 set.expandtab = true
-set.smarttab = true
 set.shiftwidth = 4
 set.tabstop = 4
 set.softtabstop = 4
+set.smarttab = true
+set.smartindent = true
 
 set.hlsearch = false
 set.errorbells = false
@@ -28,6 +29,12 @@ set.updatetime = 50
 set.cmdheight = 1
 set.title = true
 
+set.swapfile = false
+set.backup = false
+set.undodir = os.getenv("HOME") .. "/.vim/undodir"
+set.undofile = false
+
+-- hacky stuff to fix color mess in tmux and terminals
 vim.cmd([[
     let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
     let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"

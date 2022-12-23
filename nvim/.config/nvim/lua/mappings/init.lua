@@ -31,3 +31,18 @@ map('n', '<leader>db', '<cmd>lua require("dap").toggle_breakpoint()<cr>', opts)
 map('n', '<leader>dc', '<cmd>lua require("dap").continue()<cr>', opts)
 map('n', '<leader>di', '<cmd>lua require("dap").step_into()<cr>', opts)
 map('n', '<leader>do', '<cmd>lua require("dap").step_over()<cr>', opts)
+
+-- Some other remaps
+-- centering after scroll
+map('n', '<C-d>', '<C-d>zz', opts)
+map('n', '<C-u>', '<C-u>zz', opts)
+-- centering when searching
+map('n', 'n', 'nzzzv', opts)
+map('n', 'n', 'Nzzzv', opts)
+-- Copy pasting magic
+map('x', "<leader>p", "\"_dP", opts) -- avoid overwritting copied register
+map('n', "<leader>y", "\"+y", opts) -- system clipboard
+map('v', "<leader>y", "\"+y", opts)
+map('n', "<leader>Y", "\"+y", opts)
+-- remove weird stuff
+map('n', "Q", "<nop>", opts)

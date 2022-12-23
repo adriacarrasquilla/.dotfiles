@@ -11,7 +11,14 @@ return require'packer'.startup(function()
     }
 
     -- LSP stuff
-    use 'neovim/nvim-lspconfig'
+    use {'neovim/nvim-lspconfig',
+        requires = {
+            "williamboman/mason-lspconfig.nvim",
+            "williamboman/mason.nvim",
+            "j-hui/fidget.nvim"
+        }
+    }
+    require("mason").setup() -- not sure why config is not enough
     -- use "folke/lua-dev.nvim"
     -- use { 'kkharji/lspsaga.nvim' }  -- nightly
     use({
@@ -25,9 +32,6 @@ return require'packer'.startup(function()
             })
         end,
     })
-    use { "williamboman/mason-lspconfig.nvim" }
-    use { "williamboman/mason.nvim" }
-    require("mason").setup() -- not sure why config is not enough
 
     -- Completion
     use {'hrsh7th/nvim-cmp',
@@ -56,8 +60,14 @@ return require'packer'.startup(function()
     -- syntax highlighter
     use {
         'nvim-treesitter/nvim-treesitter',
-        run = ':TSUpdate'
-        -- function() require('nvim-treesitter.install').update({ with_sync = true }) end,
+        -- run = ':TSUpdate'
+        run = function()
+		    pcall(require('nvim-treesitter.install').update { with_sync = true })
+	    end,
+    }
+    use {
+        'nvim-treesitter/nvim-treesitter-textobjects',
+        after = 'nvim-treesitter'
     }
 
     -- Auto pairs
