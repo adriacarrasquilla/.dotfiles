@@ -110,8 +110,12 @@ return require'packer'.startup(function()
         end
     }
 
+    -- Undotree
+    use { "mbbill/undotree" }
+
     -- Git
     use { 'sindrets/diffview.nvim', requires = 'nvim-lua/plenary.nvim' }
+    use { 'tpope/vim-fugitive' } 
 
     -- Debugger
     use { "mfussenegger/nvim-dap" }
