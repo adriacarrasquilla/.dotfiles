@@ -10,10 +10,10 @@ for _, sign in ipairs(signs) do
 end
 
 local config = {
-  virtual_text = false,
+  virtual_text = true,
   signs = signs,
   underline = true,
-  update_in_insert = true,
+  update_in_insert = false,
   severity_sort = true,
   float = {
     focusable = true,
@@ -23,12 +23,11 @@ local config = {
     header = "",
     prefix = "",
     format = function(d)
-      local t = vim.deepcopy(d)
-      local code = d.code or d.user_data.lsp.code
-      if code then
-        t.message = string.format("%s [%s]", t.message, code):gsub("1. ", "")
-      end
-      return t.message
+        local code = d.code or (d.user_data and d.user_data.lsp.code)
+        if code then
+          return string.format("%s [%s]", d.message, code):gsub("1. ", "")
+        end
+        return d.message
     end,
   },
 }
@@ -36,7 +35,7 @@ local config = {
 vim.diagnostic.config(config)
 
 local float_opts = {
-  focusable = false,
+  focusable = true,
   style = "minimal",
   border = "rounded",
 }
