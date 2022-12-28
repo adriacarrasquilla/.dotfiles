@@ -34,7 +34,7 @@ end
 
 -- Add additional capabilities supported by nvim-cmp
 -- local capabilities = vim.lsp.protocol.make_client_capabilities()
-capabilities = require('cmp_nvim_lsp').default_capabilities()
+local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
 local lsp_flags = {
   -- This is the default in Nvim 0.7+
@@ -64,6 +64,7 @@ lspconfig.texlab.setup{
 lspconfig.sumneko_lua.setup({
   settings = {
     Lua = {
+      telemetry = { enable = false },
       completion = {
         callSnippet = "Replace"
       }
