@@ -2,7 +2,10 @@ return require'packer'.startup(function()
     use 'wbthomason/packer.nvim'
 
     -- colorscheme
-    use 'ellisonleao/gruvbox.nvim'
+    -- use 'ellisonleao/gruvbox.nvim'
+
+    use 'adriacarrasquilla/gruvbox.nvim'
+    -- use '~/Projects/gruvbox-adri.nvim'
 
     -- statusline
     use {
@@ -108,6 +111,9 @@ return require'packer'.startup(function()
             }
         end
     }
+
+    -- show hex colors
+    use 'norcalli/nvim-colorizer.lua'
 
     -- Undotree
     use { "mbbill/undotree" }

@@ -47,7 +47,7 @@ map('n', '<C-u>', '<C-u>zz', opts)
 
 -- centering when searching
 map('n', 'n', 'nzzzv', opts)
-map('n', 'n', 'Nzzzv', opts)
+map('n', 'N', 'Nzzzv', opts)
 
 -- Copy pasting magic
 map('x', "<leader>p", "\"_dP", opts) -- avoid overwritting copied register
