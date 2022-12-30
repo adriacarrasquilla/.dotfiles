@@ -22,7 +22,7 @@ return require'packer'.startup(function()
             "folke/neodev.nvim",
         }
     }
-    require("mason").setup() -- not sure why config is not enough
+    require("mason").setup({ui={border="rounded"}})
 
     -- use { 'kkharji/lspsaga.nvim' }  -- nightly
     use({
