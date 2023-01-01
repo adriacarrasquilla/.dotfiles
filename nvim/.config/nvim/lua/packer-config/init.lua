@@ -2,7 +2,10 @@ return require'packer'.startup(function()
     use 'wbthomason/packer.nvim'
 
     -- colorscheme
-    use 'ellisonleao/gruvbox.nvim'
+    -- use 'ellisonleao/gruvbox.nvim'
+
+    use 'adriacarrasquilla/gruvbox.nvim'
+    -- use '~/Projects/gruvbox-adri.nvim'
 
     -- statusline
     use {
@@ -11,8 +14,16 @@ return require'packer'.startup(function()
     }
 
     -- LSP stuff
-    use 'neovim/nvim-lspconfig'
-    -- use "folke/lua-dev.nvim"
+    use {'neovim/nvim-lspconfig',
+        requires = {
+            "williamboman/mason-lspconfig.nvim",
+            "williamboman/mason.nvim",
+            "j-hui/fidget.nvim",
+            "folke/neodev.nvim",
+        }
+    }
+    require("mason").setup({ui={border="rounded"}})
+
     -- use { 'kkharji/lspsaga.nvim' }  -- nightly
     use({
         "glepnir/lspsaga.nvim",
@@ -25,22 +36,15 @@ return require'packer'.startup(function()
             })
         end,
     })
-    use { "williamboman/mason-lspconfig.nvim" }
-    use { "williamboman/mason.nvim" }
-    require("mason").setup() -- not sure why config is not enough
 
     -- Completion
     use {'hrsh7th/nvim-cmp',
-        requires = {
-        "quangnguyen30192/cmp-nvim-ultisnips",
+        requires = { "quangnguyen30192/cmp-nvim-ultisnips", "hrsh7th/cmp-nvim-lsp", "saadparwaiz1/cmp_luasnip" },
         config = function()
           -- optional call to setup (see customization section)
           require("cmp_nvim_ultisnips").setup{}
         end,
-      },
     }  -- Autocompletion plugin
-    use 'hrsh7th/cmp-nvim-lsp' -- LSP source for nvim-cmp
-    use 'saadparwaiz1/cmp_luasnip' -- Snippets source for nvim-cmp
     use 'L3MON4D3/LuaSnip' -- Snippets plugin
     use 'onsails/lspkind-nvim' -- icons on completion
     use { "SirVer/ultisnips" }
@@ -49,15 +53,23 @@ return require'packer'.startup(function()
     -- Telescope
     -- make sure to install ripgrep from BurntSushi/ripgrep
     use {
-      "nvim-telescope/telescope.nvim", tag = '0.1.0',
-      requires = { { "nvim-lua/plenary.nvim" } }
+      "nvim-telescope/telescope.nvim", branch = '0.1.x',
+      requires = { "nvim-lua/plenary.nvim" }
     }
+
+    use { "nvim-telescope/telescope-fzf-native.nvim", run = 'make', cond = vim.fn.executable 'make' == 1 }
 
     -- syntax highlighter
     use {
         'nvim-treesitter/nvim-treesitter',
-        run = ':TSUpdate'
-        -- function() require('nvim-treesitter.install').update({ with_sync = true }) end,
+        -- run = ':TSUpdate'
+        run = function()
+		    pcall(require('nvim-treesitter.install').update { with_sync = true })
+	    end,
+    }
+    use {
+        'nvim-treesitter/nvim-treesitter-textobjects',
+        after = 'nvim-treesitter'
     }
 
     -- Auto pairs
@@ -100,8 +112,15 @@ return require'packer'.startup(function()
         end
     }
 
+    -- show hex colors
+    use 'norcalli/nvim-colorizer.lua'
+
+    -- Undotree
+    use { "mbbill/undotree" }
+
     -- Git
     use { 'sindrets/diffview.nvim', requires = 'nvim-lua/plenary.nvim' }
+    use { 'tpope/vim-fugitive' }
 
     -- Debugger
     use { "mfussenegger/nvim-dap" }

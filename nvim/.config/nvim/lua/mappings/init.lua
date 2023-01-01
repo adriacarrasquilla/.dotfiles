@@ -22,6 +22,13 @@ map('n', '<leader>fb', '<cmd>Telescope buffers<cr>', opts)
 map('n', '<leader>fh', '<cmd>Telescope help_tags<cr>', opts)
 map('n', '<leader>fd', '<cmd>Telescope diagnostics<cr>', opts)
 map('n', '<leader>fr', '<cmd>Telescope lsp_references<cr>', opts)
+vim.keymap.set('n', '<leader>/', function()
+  -- You can pass additional configuration to telescope to change theme, layout, etc.
+  require('telescope.builtin').current_buffer_fuzzy_find(require('telescope.themes').get_dropdown {
+    -- winblend = 10,
+    previewer = false,
+  })
+end, { desc = '[/] Fuzzily search in current buffer]' })
 
 
 -- DAP
@@ -31,3 +38,26 @@ map('n', '<leader>db', '<cmd>lua require("dap").toggle_breakpoint()<cr>', opts)
 map('n', '<leader>dc', '<cmd>lua require("dap").continue()<cr>', opts)
 map('n', '<leader>di', '<cmd>lua require("dap").step_into()<cr>', opts)
 map('n', '<leader>do', '<cmd>lua require("dap").step_over()<cr>', opts)
+
+
+-- Some other remaps
+-- centering after scroll
+map('n', '<C-d>', '<C-d>zz', opts)
+map('n', '<C-u>', '<C-u>zz', opts)
+
+-- centering when searching
+map('n', 'n', 'nzzzv', opts)
+map('n', 'N', 'Nzzzv', opts)
+
+-- Copy pasting magic
+map('x', "<leader>p", "\"_dP", opts) -- avoid overwritting copied register
+map('n', "<leader>y", "\"+y", opts) -- system clipboard
+map('v', "<leader>y", "\"+y", opts)
+map('n', "<leader>Y", "\"+y", opts)
+
+-- remove weird stuff
+map('n', "Q", "<nop>", opts)
+
+-- dealing with word wrap
+map('n', 'k', "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = true })
+map('n', 'j', "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = true })

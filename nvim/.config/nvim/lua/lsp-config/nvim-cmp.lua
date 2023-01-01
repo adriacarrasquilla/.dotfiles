@@ -3,11 +3,27 @@ local luasnip = require 'luasnip'
 require("luasnip.loaders.from_vscode").lazy_load({ paths = { "./Projects/Snippets" } })
 local cmp = require 'cmp'
 local lspkind = require('lspkind')
+
 cmp.setup {
   snippet = {
     expand = function(args)
       luasnip.lsp_expand(args.body)
     end,
+  },
+  window = {
+    documentation = {
+      border = { "╭", "─", "╮", "│", "╯", "─", "╰", "│" },
+    },
+    completion = {
+     border = { "╭", "─", "╮", "│", "╯", "─", "╰", "│" },
+     winhighlight = "Normal:Pmenu,FloatBorder:Pmenu,Search:None",
+     side_padding = 0,
+    }
+  },
+  experimental = {
+    -- I like the new menu better! Nice work hrsh7th
+    native_menu = false,
+    ghost_text = true,
   },
   mapping = cmp.mapping.preset.insert({
     ['<C-d>'] = cmp.mapping.scroll_docs(-4),
@@ -54,7 +70,6 @@ cmp.setup {
     })
   },
 }
-
 
 -- AUTO PAIRS SETUP
 

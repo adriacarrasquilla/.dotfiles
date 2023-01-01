@@ -26,7 +26,7 @@ local on_attach = function(client, bufnr)
     print(vim.inspect(vim.lsp.buf.list_workspace_folders()))
   end, bufopts)
   -- vim.keymap.set('n', '<space>gD', vim.lsp.buf.type_definition, bufopts)
-  vim.keymap.set('n', '<space>r', vim.lsp.buf.rename, bufopts)
+  vim.keymap.set('n', '<leader>gr', vim.lsp.buf.rename, bufopts)
   vim.keymap.set('n', '<space>ca', vim.lsp.buf.code_action, bufopts)
   vim.keymap.set('n', '<space>n', vim.lsp.buf.references, bufopts)
   -- vim.keymap.set('n', '<space>f', vim.lsp.buf.formatting, bufopts)
@@ -34,12 +34,17 @@ end
 
 -- Add additional capabilities supported by nvim-cmp
 -- local capabilities = vim.lsp.protocol.make_client_capabilities()
-capabilities = require('cmp_nvim_lsp').default_capabilities()
+local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
 local lsp_flags = {
   -- This is the default in Nvim 0.7+
   debounce_text_changes = 150,
 }
+
+require('fidget').setup()
+require('neodev').setup({
+    --neodev setup
+})
 
 local lspconfig = require('lspconfig')
 
@@ -56,6 +61,13 @@ lspconfig.texlab.setup{
     capabilities = capabilities,
 }
 
--- Lua
--- local luadev = require("lua-dev").setup({})
--- lspconfig.sumneko_lua.setup(luadev)
+lspconfig.sumneko_lua.setup({
+  settings = {
+    Lua = {
+      telemetry = { enable = false },
+      completion = {
+        callSnippet = "Replace"
+      }
+    }
+  }
+})
