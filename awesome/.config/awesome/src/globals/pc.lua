@@ -14,6 +14,6 @@ g.powermenu_margin = 4
 
 -- theme
 g.rand_wall = false
-g.wallpaper = "waves.jpg"
+g.wallpaper = "japan.png"
 
 return g
