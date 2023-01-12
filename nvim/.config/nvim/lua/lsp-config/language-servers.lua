@@ -55,12 +55,21 @@ lspconfig.pyright.setup{
     capabilities = capabilities,
 }
 
+-- Java
+lspconfig.jdtls.setup{
+    on_attach = on_attach,
+    flags = lsp_flags,
+    capabilities = capabilities,
+}
+
+-- Latex
 lspconfig.texlab.setup{
     on_attach = on_attach,
     flags = lsp_flags,
     capabilities = capabilities,
 }
 
+-- Lua
 lspconfig.sumneko_lua.setup({
   settings = {
     Lua = {

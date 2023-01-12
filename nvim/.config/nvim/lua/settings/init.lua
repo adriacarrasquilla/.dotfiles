@@ -12,6 +12,7 @@ set.smarttab = true
 set.smartindent = true
 
 set.hlsearch = false
+set.cursorline = true
 set.errorbells = false
 set.incsearch = true
 set.ignorecase = true

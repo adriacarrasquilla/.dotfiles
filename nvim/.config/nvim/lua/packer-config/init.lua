@@ -8,10 +8,7 @@ return require'packer'.startup(function()
     -- use '~/Projects/gruvbox-adri.nvim'
 
     -- statusline
-    use {
-      'nvim-lualine/lualine.nvim',
-      requires = { 'kyazdani42/nvim-web-devicons', opt = true }
-    }
+    use { 'nvim-lualine/lualine.nvim' }
 
     -- LSP stuff
     use {'neovim/nvim-lspconfig',
@@ -126,10 +123,17 @@ return require'packer'.startup(function()
     use { "mfussenegger/nvim-dap" }
     use { "rcarriga/nvim-dap-ui" }
 
+    -- File Tree
+    use {
+      'nvim-tree/nvim-tree.lua',
+      requires = {
+        'nvim-tree/nvim-web-devicons',
+      }
+    }
+
     --[[ To check
-        * Debugger interface: https://github.com/mfussenegger/nvim-dap
-        * LSP Saga: https://github.com/glepnir/lspsaga.nvim
-        * Vim fugitive: https://github.com/tpope/vim-fugitive
+        * LSP Saga: https://github.com/glepnir/lspsaga.nvim (I actually need to remove lsp saga from the config)
+        * Vim fugitive: https://github.com/tpope/vim-fugitive (config further)
     --]]
 
 end)
