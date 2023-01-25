@@ -23,7 +23,7 @@ cmp.setup {
   experimental = {
     -- I like the new menu better! Nice work hrsh7th
     native_menu = false,
-    ghost_text = true,
+    ghost_text = false, -- this enables virtual text preview
   },
   mapping = cmp.mapping.preset.insert({
     ['<C-d>'] = cmp.mapping.scroll_docs(-4),
