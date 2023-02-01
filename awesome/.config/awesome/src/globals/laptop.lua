@@ -14,6 +14,6 @@ g.powermenu_margin = 8
 
 -- theme
 g.rand_wall = false
-g.wallpaper = "waves.jpg"
+g.wallpaper = "roadtrip.jpg"
 
 return g
