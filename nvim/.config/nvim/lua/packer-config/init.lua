@@ -21,15 +21,6 @@ return require'packer'.startup(function()
     }
     require("mason").setup({ui={border="rounded"}})
 
-    -- use { 'kkharji/lspsaga.nvim' }  -- nightly
-    use({
-        "glepnir/lspsaga.nvim",
-        branch = "main",
-        config = function()
-            require("lspsaga").setup()
-        end
-    })
-
     -- Completion
     use {'hrsh7th/nvim-cmp',
         requires = { "quangnguyen30192/cmp-nvim-ultisnips", "hrsh7th/cmp-nvim-lsp", "saadparwaiz1/cmp_luasnip" },
@@ -128,7 +119,6 @@ return require'packer'.startup(function()
     }
 
     --[[ To check
-        * LSP Saga: https://github.com/glepnir/lspsaga.nvim (I actually need to remove lsp saga from the config)
         * Vim fugitive: https://github.com/tpope/vim-fugitive (config further)
     --]]
 
