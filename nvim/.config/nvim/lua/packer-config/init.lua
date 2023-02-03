@@ -15,7 +15,7 @@ vim.opt.rtp:prepend(lazypath)
 -- Lazy needs to have the mapleader set before anything else
 vim.g.mapleader = ' '
 
-require("lazy").setup('plugins')
+require("lazy").setup('plugins', {ui={border="rounded"}})
 
 require("mason").setup({ui={border="rounded"}})
 vim.cmd([[
