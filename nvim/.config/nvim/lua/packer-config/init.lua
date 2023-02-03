@@ -1,125 +1,26 @@
-return require'packer'.startup(function()
-    use 'wbthomason/packer.nvim'
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+if not vim.loop.fs_stat(lazypath) then
+  vim.fn.system({
+    "git",
+    "clone",
+    "--filter=blob:none",
+    "https://github.com/folke/lazy.nvim.git",
+    "--branch=stable", -- latest stable release
+    lazypath,
+  })
+end
 
-    -- colorscheme
-    -- use 'ellisonleao/gruvbox.nvim'
+vim.opt.rtp:prepend(lazypath)
 
-    use 'adriacarrasquilla/gruvbox.nvim'
-    -- use '~/Projects/gruvbox-adri.nvim'
+-- Lazy needs to have the mapleader set before anything else
+vim.g.mapleader = ' '
 
-    -- statusline
-    use { 'nvim-lualine/lualine.nvim' }
+require("lazy").setup('plugins')
 
-    -- LSP stuff
-    use {'neovim/nvim-lspconfig',
-        requires = {
-            "williamboman/mason-lspconfig.nvim",
-            "williamboman/mason.nvim",
-            "j-hui/fidget.nvim",
-            "folke/neodev.nvim",
-        }
-    }
-    require("mason").setup({ui={border="rounded"}})
-
-    -- Completion
-    use {'hrsh7th/nvim-cmp',
-        requires = { "quangnguyen30192/cmp-nvim-ultisnips", "hrsh7th/cmp-nvim-lsp", "saadparwaiz1/cmp_luasnip" },
-        config = function()
-          -- optional call to setup (see customization section)
-          require("cmp_nvim_ultisnips").setup{}
-        end,
-    }  -- Autocompletion plugin
-    use 'L3MON4D3/LuaSnip' -- Snippets plugin
-    use 'onsails/lspkind-nvim' -- icons on completion
-    use { "SirVer/ultisnips" }
-    use { "honza/vim-snippets" }
-
-    -- Telescope
-    -- make sure to install ripgrep from BurntSushi/ripgrep
-    use {
-      "nvim-telescope/telescope.nvim", branch = '0.1.x',
-      requires = { "nvim-lua/plenary.nvim" }
-    }
-
-    use { "nvim-telescope/telescope-fzf-native.nvim", run = 'make', cond = vim.fn.executable 'make' == 1 }
-
-    -- syntax highlighter
-    use {
-        'nvim-treesitter/nvim-treesitter',
-        -- run = ':TSUpdate'
-        run = function()
-		    pcall(require('nvim-treesitter.install').update { with_sync = true })
-	    end,
-    }
-    use {
-        'nvim-treesitter/nvim-treesitter-textobjects',
-        after = 'nvim-treesitter'
-    }
-
-    -- Auto pairs
-    use {
-        "windwp/nvim-autopairs",
-        config = function() require("nvim-autopairs").setup {} end
-    }
-    -- Comments
-    use {
-        'numToStr/Comment.nvim',
-        config = function()
-            require('Comment').setup()
-        end
-    }
-
-    -- LaTeX
-    use { 'lervag/vimtex' }
-    vim.cmd([[
-        let g:vimtex_view_method='zathura'
-        let g:tex_flavor='latex'
-        set conceallevel=2
-        let g:vimtex_quickfix_enabled=0
-    ]])
-
-    -- Notes
-    use { 'vimwiki/vimwiki' }
-
-    -- Lua
-
-    -- TODO coments highliter
-    use {
-        "folke/todo-comments.nvim",
-        requires = "nvim-lua/plenary.nvim",
-        config = function()
-            require("todo-comments").setup {
-                highlight = {
-                    comments_only = false
-                }
-            }
-        end
-    }
-
-    -- show hex colors
-    use 'norcalli/nvim-colorizer.lua'
-
-    -- Undotree
-    use { "mbbill/undotree" }
-
-    -- Git
-    use { 'sindrets/diffview.nvim', requires = 'nvim-lua/plenary.nvim' }
-    use { 'tpope/vim-fugitive' }
-
-    -- Debugger
-    use { "mfussenegger/nvim-dap" }
-    use { "rcarriga/nvim-dap-ui" }
-
-    -- File Tree
-    use {
-      'nvim-tree/nvim-tree.lua',
-      requires = {
-        'nvim-tree/nvim-web-devicons',
-      }
-    }
-
-    --[[ To check
-        * Vim fugitive: https://github.com/tpope/vim-fugitive (config further)
-    --]]
-
-end)
+require("mason").setup({ui={border="rounded"}})
+vim.cmd([[
+    let g:vimtex_view_method='zathura'
+    let g:tex_flavor='latex'
+    set conceallevel=2
+    let g:vimtex_quickfix_enabled=0
+]])

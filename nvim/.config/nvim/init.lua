@@ -1,6 +1,6 @@
 require('packer-config')
 require('colors.gruvbox')
 require('mappings')
-require('plugins')
+require('plugins-config')
 require('settings')
 require('lsp-config')
