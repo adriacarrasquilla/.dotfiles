@@ -69,7 +69,7 @@ return {
     'lervag/vimtex',
 
     -- Notes
-    'vimwiki/vimwiki',
+    -- 'vimwiki/vimwiki',
 
     -- Lua
 
