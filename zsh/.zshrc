@@ -43,7 +43,7 @@ alias gs='git status'
 alias gc='git commit'
 alias o='xdg-open'
 alias open='xdg-open'
-alias n="vim -c VimwikiIndex"
+alias n="vim $HOME/Notes/index.md"
 alias lg="lazygit"
 
 # source /usr/share/nvm/init-nvm.sh
