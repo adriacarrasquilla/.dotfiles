@@ -57,7 +57,7 @@ lspconfig.pyright.setup{
 }
 
 -- Java
-lspconfig.jdtls.setup{
+lspconfig.tsserver.setup{
     on_attach = on_attach,
     flags = lsp_flags,
     capabilities = capabilities,
@@ -71,7 +71,7 @@ lspconfig.texlab.setup{
 }
 
 -- Lua
-lspconfig.sumneko_lua.setup({
+lspconfig.lua_ls.setup({
   settings = {
     Lua = {
       telemetry = { enable = false },
