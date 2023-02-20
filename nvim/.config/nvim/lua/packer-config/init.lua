@@ -15,8 +15,8 @@ vim.opt.rtp:prepend(lazypath)
 -- Lazy needs to have the mapleader set before anything else
 vim.g.mapleader = ' '
 
--- I need to set up this before the plugin. Otherwise vimwiki will ignore it
-vim.g.vimwiki_list = {{path = '~/Notes/', syntax = 'markdown', ext = '.md'}}
+-- Lazy loading makes some plugins fail to configure. Setting some globals before loading
+require("preloading-config")
 
 require("lazy").setup('plugins', {ui={border="rounded"}})
 
