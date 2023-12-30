@@ -14,7 +14,7 @@ dap.configurations.python = {
     pythonPath = function()
       return '/usr/bin/python3'
     end;
-    justMyCode = false;
+    justMyCode = true;  -- Set to false to access external packages
   },
 }
 

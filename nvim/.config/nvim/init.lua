@@ -1,6 +1,2 @@
-require('packer-config')
-require('colors.gruvbox')
-require('mappings')
-require('plugins-config')
-require('settings')
-require('lsp-config')
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")
