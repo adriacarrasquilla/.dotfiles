@@ -8,7 +8,7 @@ return {
       vim.g.vimwiki_ext2syntax = { ['.md'] = 'markdown', ['.markdown'] = 'markdown', ['.mdown'] = 'markdown' }
       vim.g.vimwiki_use_mouse = 1
       vim.g.vimwiki_markdown_link_ext = 1
-      vim.g.vimwiki_folding = ''
+      vim.g.vimwiki_folding = 'list'
       -- vim.keymap.set( "n", "<leader>n", "VimwikiToggleListItem<CR>", { desc = "Toggle vimwiki item" })
     end,
   },
