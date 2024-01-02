@@ -10,6 +10,9 @@ return {
       vim.g.vimwiki_markdown_link_ext = 1
       vim.g.vimwiki_folding = 'list'
       -- vim.keymap.set( "n", "<leader>n", "VimwikiToggleListItem<CR>", { desc = "Toggle vimwiki item" })
+      -- temporary solution to solve folding issue due vimwiki parser not existing
+
+      vim.treesitter.language.register('markdown', 'vimwiki')
     end,
   },
 }
