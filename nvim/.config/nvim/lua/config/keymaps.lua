@@ -69,3 +69,9 @@ map("v", "v", '<Esc>', opts)
 
 -- Vimwiki
 map("n", "<leader>ww", "<cmd>VimwikiIndex<cr>", opts)
+
+-- Undotree
+map("n", "<leader>uu", "<cmd>UndotreeToggle<cr>", opts)
+
+-- url-open
+vim.keymap.set("n", "gx", "<esc>:URLOpenUnderCursor<cr>")
