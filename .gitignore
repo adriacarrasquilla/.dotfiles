@@ -3,5 +3,4 @@
 **/packer_compiled.lua
 */globals/init.lua
 nvim/.config/nvim/plugin/
-**/lazy-lock.json
 yasb.log

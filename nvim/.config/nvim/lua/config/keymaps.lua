@@ -1,6 +1,3 @@
--- Keymaps are automatically loaded on the VeryLazy event
--- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
--- Add any additional keymaps here
 local map = vim.api.nvim_set_keymap
 
 local opts = { noremap = true, silent = true }
@@ -27,9 +24,7 @@ map("n", "<leader>fh", "<cmd>Telescope help_tags<cr>", opts)
 map("n", "<leader>fd", "<cmd>Telescope diagnostics<cr>", opts)
 map("n", "<leader>fr", "<cmd>Telescope lsp_references<cr>", opts)
 vim.keymap.set("n", "<leader>/", function()
-  -- You can pass additional configuration to telescope to change theme, layout, etc.
   require("telescope.builtin").current_buffer_fuzzy_find(require("telescope.themes").get_dropdown({
-    -- winblend = 10,
     previewer = false,
   }))
 end, { desc = "[/] Fuzzily search in current buffer]" })
@@ -60,9 +55,9 @@ map("n", "<leader>Y", '"+y', opts)
 -- remove weird stuff
 map("n", "Q", "<nop>", opts)
 
--- dealing with word wrap
-map("n", "k", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = true })
-map("n", "j", "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = true })
+-- dealing with word wrap (commented bc recursive stuff in whichkey)
+-- map("n", "k", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = true })
+-- map("n", "j", "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = true })
 
 -- LazyVim fixes
 map("v", "v", '<Esc>', opts)
@@ -74,4 +69,7 @@ map("n", "<leader>ww", "<cmd>VimwikiIndex<cr>", opts)
 map("n", "<leader>uu", "<cmd>UndotreeToggle<cr>", opts)
 
 -- url-open
-vim.keymap.set("n", "gx", "<esc>:URLOpenUnderCursor<cr>")
+map("n", "gx", "<esc>:URLOpenUnderCursor<cr>", opts)
+
+-- Lazy
+map("n", "<leader>l", "<cmd>Lazy<cr>", opts)

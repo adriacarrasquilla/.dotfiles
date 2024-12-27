@@ -2,34 +2,8 @@ return {
     -- colorscheme
     -- 'ellisonleao/gruvbox.nvim',
 
-    'adriacarrasquilla/gruvbox.nvim',
+    -- 'adriacarrasquilla/gruvbox.nvim',
     -- '~/Projects/gruvbox-adri.nvim',
-
-    -- statusline
-    'nvim-lualine/lualine.nvim',
-
-    -- LSP stuff
-    {'neovim/nvim-lspconfig',
-        dependencies = {
-            "williamboman/mason-lspconfig.nvim",
-            "williamboman/mason.nvim",
-            "j-hui/fidget.nvim",
-            "folke/neodev.nvim",
-        }
-    },
-
-    -- Completion
-    {'hrsh7th/nvim-cmp',
-        dependencies = { "quangnguyen30192/cmp-nvim-ultisnips", "hrsh7th/cmp-nvim-lsp", "saadparwaiz1/cmp_luasnip" },
-        config = function()
-          -- optional call to setup (see customization section)
-          require("cmp_nvim_ultisnips").setup{}
-        end,
-    },  -- Autocompletion plugin
-    'L3MON4D3/LuaSnip', -- Snippets plugin
-    'onsails/lspkind-nvim', -- icons on completion
-    "SirVer/ultisnips",
-    "honza/vim-snippets",
 
     -- Telescope
     -- make sure to install ripgrep from BurntSushi/ripgrep
@@ -39,18 +13,6 @@ return {
     },
 
     { "nvim-telescope/telescope-fzf-native.nvim", build = 'make', cond = vim.fn.executable 'make' == 1 },
-
-    -- syntax highlighter
-    {
-        'nvim-treesitter/nvim-treesitter',
-        -- build = ':TSUpdate'
-        build = function()
-		    pcall(require('nvim-treesitter.install').update { with_sync = true })
-	    end,
-        dependencies = {
-            'nvim-treesitter/nvim-treesitter-textobjects',
-        }
-    },
 
     -- Auto pairs
     {
@@ -64,14 +26,6 @@ return {
             require('Comment').setup()
         end
     },
-
-    -- LaTeX
-    'lervag/vimtex',
-
-    -- Notes
-    -- 'vimwiki/vimwiki',
-
-    -- Lua
 
     -- TODO coments highliter
     {
@@ -107,9 +61,4 @@ return {
         'nvim-tree/nvim-web-devicons',
       }
     },
-
-    --[[ To check
-        * Vim fugitive: https://github.com/tpope/vim-fugitive (config further)
-    --]]
-
 }

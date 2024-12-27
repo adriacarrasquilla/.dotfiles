@@ -21,9 +21,10 @@ return {
                     fg = "#d65d0e", -- "text" or "#rrggbb"
                     -- fg = "text", -- text will set underline same color with text
                     bg = nil, -- nil or "#rrggbb"
-                    underline = true,
+                    underline = true
                 },
             },
         })
     end,
 }
+

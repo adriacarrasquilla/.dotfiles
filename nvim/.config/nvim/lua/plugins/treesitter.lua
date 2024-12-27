@@ -16,29 +16,18 @@ return {
 		treesitter.setup({
 			ensure_installed = {
 				"lua",
-				"html",
 				"css",
-				"java",
-				"javascript",
-				"typescript",
 				"python",
+				"c_sharp",
 				"markdown",
-				"markdown_inline",
 			},
+			ignore_install = {},
+			modules = {},
 			sync_install = false,
 			auto_install = true,
 			highlight = {
 				enable = true,
 				additional_vim_regex_highlighting = false,
-			},
-			autotag = {
-				enable = true,
-			},
-			autopairs = {
-				enable = true,
-			},
-			rainbow = {
-				enable = true,
 			},
 		})
 	end,
