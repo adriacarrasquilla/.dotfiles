@@ -1,0 +1,1 @@
+/home/adri/Projects/tree-sitter-scope/queries/highlights.scm

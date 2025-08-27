@@ -6,6 +6,7 @@ local setup = function()
 			lua = { "stylua" },
 			python = { "isort", "black" },
 			javascript = { "prettierd", "prettier", stop_after_first = true },
+			json = { "prettierd" },
 			sql = { "sql_formatter" },
 			csharp = { "csharpier" },
 		},
@@ -30,6 +31,10 @@ local setup = function()
 			})
 		end,
 	})
+
+	require("conform").formatters.black = {
+		prepend_args = { "--line-length", "120" },
+	}
 end
 
 setup()

@@ -24,9 +24,9 @@ map("n", "<leader>fh", "<cmd>Telescope help_tags<cr>", opts)
 map("n", "<leader>fd", "<cmd>Telescope diagnostics<cr>", opts)
 map("n", "<leader>fr", "<cmd>Telescope lsp_references<cr>", opts)
 vim.keymap.set("n", "<leader>/", function()
-  require("telescope.builtin").current_buffer_fuzzy_find(require("telescope.themes").get_dropdown({
-    previewer = false,
-  }))
+	require("telescope.builtin").current_buffer_fuzzy_find(require("telescope.themes").get_dropdown({
+		previewer = false,
+	}))
 end, { desc = "[/] Fuzzily search in current buffer]" })
 
 -- DAP
@@ -60,10 +60,11 @@ map("n", "Q", "<nop>", opts)
 -- map("n", "j", "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = true })
 
 -- LazyVim fixes
-map("v", "v", '<Esc>', opts)
+map("v", "v", "<Esc>", opts)
 
 -- Vimwiki
 map("n", "<leader>ww", "<cmd>VimwikiIndex<cr>", opts)
+map("n", "<leader>wp", "<cmd>VimwikiIndex 2<cr>", opts)
 
 -- Undotree
 map("n", "<leader>uu", "<cmd>UndotreeToggle<cr>", opts)

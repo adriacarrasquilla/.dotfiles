@@ -4,5 +4,9 @@
 -- })
 
 vim.cmd([[
-    au BufNewFile /Users/adri/Notes/Diary/*.md :silent 0r !~/.local/bin/generate-vimwiki-diary-template '%'
+    au BufNewFile /mnt/c/Users/adric/OneDrive\ -\ Microsoft/Notes/Worklog/*.md :silent 0r !~/.local/bin/vimwiki-diary-template '%'
+]])
+
+vim.cmd([[
+    au BufNewFile /home/adri/PersonalNotes/Diary/*.md :silent 0r !~/.local/bin/vimwiki-personal-diary-template '%'
 ]])

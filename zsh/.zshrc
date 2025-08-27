@@ -1,4 +1,5 @@
 # Antigen
+export TERM='xterm-256color'
 source $HOME/Projects/antigen.zsh
 antigen use oh-my-zsh
 
@@ -37,17 +38,25 @@ export EDITOR='nvim'
 alias vim='nvim'
 alias v='nvim'
 alias conf='cd $HOME/.config/'
-alias ll='exa --long --header --git'
-alias la='exa --long --all --header --git'
+alias ll='eza --long --header --group-directories-first'
+alias la='eza --long --all --header --group-directories-first'
 alias gs='git status'
 alias gc='git commit'
 alias o='xdg-open'
 alias open='xdg-open'
 alias n="vim -c VimwikiIndex"
 alias lg="lazygit"
+alias pyi="source /home/adri/Projects/work-personal/CategorizationDataAnalysis/taxonomy_2d_explorer/env/bin/activate"
 
 # source /usr/share/nvm/init-nvm.sh
 
 export PATH=$PATH:~/.config/rofi/scripts
 export PATH=$PATH:~/.cargo/bin
 export PATH=$PATH:~/.local/bin
+
+# bun completions
+[ -s "/home/adri/.local/share/reflex/bun/_bun" ] && source "/home/adri/.local/share/reflex/bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.local/share/reflex/bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

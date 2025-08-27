@@ -37,7 +37,7 @@ return {
 				sorting_strategy = "descending",
 				layout_strategy = "horizontal",
 				file_sorter = require("telescope.sorters").get_fuzzy_file,
-				file_ignore_patterns = {},
+				file_ignore_patterns = { "venv/", "%.pyc$", "__pycache__/", "env/" },
 				generic_sorter = require("telescope.sorters").get_generic_fuzzy_sorter,
 				path_display = {},
 				winblend = 0,
